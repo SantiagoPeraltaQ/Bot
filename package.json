@@ -22,7 +22,7 @@
         "whatsapp-web.js": "^1.25.0"
     },
     "devDependencies": {
-        "eslint": "^8.52.0",
+        "eslint": "^8.57.1",
         "eslint-plugin-bot-whatsapp": "latest"
     },
     "author": "",
