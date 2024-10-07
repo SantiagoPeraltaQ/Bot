@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Copia el resto de los archivos y construye el proyecto
+# Copia el resto de los archivos
 COPY . .
 
 # Etapa 2: Despliegue
@@ -21,8 +21,7 @@ ENV PORT $PORT
 EXPOSE $PORT
 
 # Copia los archivos necesarios desde la fase de build
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/package*.json ./
+COPY --from=builder /app /app
 
 # Instala solo las dependencias de producción
 RUN npm install --production
