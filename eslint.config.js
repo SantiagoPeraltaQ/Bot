@@ -1,18 +1,19 @@
 module.exports = [
     {
         files: ["**/*.js"], // Archivos a los que se aplicarán las reglas
-        env: {
-            browser: true,
-            commonjs: true,
-            es2021: true,
-            node: true, // Se añade directamente el entorno de Node.js
-        },
-        parserOptions: {
+        languageOptions: {
             ecmaVersion: 'latest',
-            sourceType: 'module', // Se ajusta si estás usando módulos ES (import/export)
+            sourceType: 'module', // Si estás usando módulos ES (import/export)
+            globals: {
+                browser: true,
+                commonjs: true,
+                es2021: true,
+                node: true, // Define las variables globales de Node.js
+            },
         },
-        plugins: ['bot-whatsapp'],
-        extends: ['plugin:bot-whatsapp/recommended'],
+        plugins: {
+            'bot-whatsapp': require('eslint-plugin-bot-whatsapp'), // Debes asegurarte de cargar los plugins correctamente
+        },
         rules: {
             // Puedes agregar reglas personalizadas aquí si es necesario
         },
