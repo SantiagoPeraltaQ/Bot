@@ -23,8 +23,5 @@ EXPOSE $PORT
 # Copia los archivos necesarios desde la fase de build
 COPY --from=builder /app /app
 
-# Instala solo las dependencias de producción
-RUN npm install --production
-
 # Comando para arrancar la aplicación
 CMD ["npm", "start"]
