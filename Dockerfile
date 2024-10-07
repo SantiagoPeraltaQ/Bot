@@ -3,17 +3,13 @@ FROM node:21-bullseye-slim as builder
 
 WORKDIR /app
 
-# Habilita corepack y configura pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
-ENV PNPM_HOME=/usr/local/bin
-
 # Copia los archivos necesarios para instalar dependencias
-COPY package*.json *-lock.yaml ./
-RUN pnpm install
+COPY package*.json ./
+RUN npm install
 
 # Copia el resto de los archivos y construye el proyecto
 COPY . .
-RUN pnpm run build
+RUN npm run build
 
 # Etapa 2: Despliegue
 FROM node:21-bullseye-slim as deploy
@@ -26,16 +22,12 @@ ENV PORT $PORT
 EXPOSE $PORT
 
 # Copia los archivos necesarios desde la fase de build
-COPY --from=builder /app/assets ./assets
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/*.json /app/*-lock.yaml ./
-
-# Habilita corepack y pnpm en la etapa de despliegue
-RUN corepack enable && corepack prepare pnpm@latest --activate 
-ENV PNPM_HOME=/usr/local/bin
+COPY --from=builder /app/assets ./assets
+COPY --from=builder /app/package*.json ./
 
 # Instala solo las dependencias de producción
-RUN pnpm install --production --ignore-scripts
+RUN npm install --production
 
 # Comando para arrancar la aplicación
 CMD ["npm", "start"]
