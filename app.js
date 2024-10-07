@@ -116,52 +116,24 @@ const constPregunta = addKeyword(EVENTS.ACTION)
          );
 
 
-  AACCVaFood  = addKeyword(EVENTS.ACTION)
-  .addAnswer(
-    "AACC VaFood",
-    {
-      media: "C:/Users/Micael/Desktop/Chat - copia/base-baileys-memory/AACC BOT/VF.png",
-      
-    }),
-
-         
-  AACCRNE  = addKeyword(EVENTS.ACTION)
-  .addAnswer(
-    "AACC Roca Negra Este",
-    {
-      media: "C:/Users/Micael/Desktop/Chat - copia/base-baileys-memory/AACC BOT/RN Con Pena.png",
-      
-    }), 
-           
-  AACCRNO  = addKeyword(EVENTS.ACTION)
-  .addAnswer(
-    "AACC Roca Negra Oeste",
-    {
-      media: "C:/Users/Micael/Desktop/Chat - copia/base-baileys-memory/AACC BOT/RN.png",
-     
-    }), 
-             
-  AACCRegidor  = addKeyword(EVENTS.ACTION)
-  .addAnswer(
-    "AACC Regidor",
-    {
-      media: "C:/Users/Micael/Desktop/Chat - copia/base-baileys-memory/AACC BOT/Regidor.png",
-     
-    }),
-               
-  AACCInterior  = addKeyword(EVENTS.ACTION)
-  .addAnswer(
-    "AACC Interior",
-    {
-      media: "C:/Users/Micael/Desktop/Chat - copia/base-baileys-memory/AACC BOT/Interior.png",
-      
-    }), 
-                 
+         const AACCVaFood = addKeyword(EVENTS.ACTION)
+         .addAnswer("AACC VaFood", { media: path.join(__dirname, "AACC BOT", "VF.png") });
+       
+       const AACCRNE = addKeyword(EVENTS.ACTION)
+         .addAnswer("AACC Roca Negra Este", { media: path.join(__dirname, "AACC BOT", "RN Con Pena.png") });
+       
+       const AACCRNO = addKeyword(EVENTS.ACTION)
+         .addAnswer("AACC Roca Negra Oeste", { media: path.join(__dirname, "AACC BOT", "RN.png") });
+       
+       const AACCRegidor = addKeyword(EVENTS.ACTION)
+         .addAnswer("AACC Regidor", { media: path.join(__dirname, "AACC BOT", "Regidor.png") });
+       
+       const AACCInterior = addKeyword(EVENTS.ACTION)
+         .addAnswer("AACC Interior", { media: path.join(__dirname, "AACC BOT", "Interior.png") });
+       
+       const constConsulta = addKeyword(EVENTS.ACTION)
+         .addAnswer("Aca la idea es agregar consultas extra");
                       
-
-constConsulta = addKeyword(EVENTS.ACTION)
-    .addAnswer("Aca la idea es agregar consultas extra")
-
 
 
 const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
