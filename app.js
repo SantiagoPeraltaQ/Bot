@@ -140,7 +140,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
  menu,
  { capture: true },
  async (ctx, { gotoFlow, fallBack, flowDynamic }) => {
- if (!["1", "2", "30", "0"].includes(ctx.body)) {
+ if (!["1", "2", "88", "0"].includes(ctx.body)) {
  return fallBack(
  "Respuesta no válida, por favor selecciona una de las opciones."
  );
