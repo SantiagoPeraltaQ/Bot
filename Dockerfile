@@ -9,7 +9,6 @@ RUN npm install
 
 # Copia el resto de los archivos y construye el proyecto
 COPY . .
-RUN npm run build
 
 # Etapa 2: Despliegue
 FROM node:21-bullseye-slim as deploy
@@ -23,7 +22,6 @@ EXPOSE $PORT
 
 # Copia los archivos necesarios desde la fase de build
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/assets ./assets
 COPY --from=builder /app/package*.json ./
 
 # Instala solo las dependencias de producción
