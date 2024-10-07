@@ -1,4 +1,4 @@
-export default [
+module.exports = [
     {
         files: ["**/*.js"], // Archivos a los que se aplicarán las reglas
         env: {
