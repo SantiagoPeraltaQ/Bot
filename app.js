@@ -47,6 +47,7 @@ const constMenu = addKeyword(EVENTS.ACTION)
     Cliente,
     { capture: true },
     async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
+      console.log("Mensaje recibido:", ctx.body);
       const numero = ctx.body;
       if (isNaN(numero)) {
         return fallBack('Respuesta no válida, por favor escriba un número');
