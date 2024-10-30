@@ -23,6 +23,119 @@ const AACC = fs.readFileSync(CBAACC, "utf8");
 const csvPath = path.join(__dirname, "mensajes", "CSV.csv");
 const csvContent = fs.readFileSync(csvPath, 'utf8');
 
+const csvPath2 = path.join(__dirname, "mensajes", "CSV3.csv");
+const csvContent2 = fs.readFileSync(csvPath2, 'utf8');
+
+// Procesar el CSV y cargar los datos en una lista
+const cargarDatosCSV = () => {
+    const lineas = csvContent2.split('\n');
+    const data = [];
+
+    lineas.forEach((linea, index) => {
+        const [codigo, dia, supervisor, , , razonSocial, vendedor] = linea.split(';');
+        if (index > 0 && codigo && supervisor && vendedor && dia && razonSocial) { // Ignorar la primera línea de encabezados
+            data.push({
+                codigo: codigo.trim(),
+                dia: dia.trim(),
+                supervisor: supervisor.trim(),
+                vendedor: vendedor.trim(),
+                razonSocial: razonSocial.trim(),
+            });
+        }
+    });
+
+    return data;
+};
+
+const data = cargarDatosCSV();
+
+// Función para obtener opciones únicas enumeradas
+const obtenerOpcionesEnumeradas = (campo, listaFiltrada) => {
+    const opcionesUnicas = [...new Set(listaFiltrada.map(item => item[campo]))];
+    return opcionesUnicas.map((opcion, index) => `${index + 1} - ${opcion}`).join('\n');
+};
+
+// Función para obtener valor de la opción seleccionada dentro de una lista específica
+const obtenerValorPorOpcion = (listaFiltrada, numero) => {
+    return listaFiltrada[numero - 1]; // Seleccionar valor de la lista filtrada
+};
+
+// Función para filtrar los datos según criterios
+const filtrarPorCriterios = (supervisor, vendedor, dia) => {
+    return data
+        .filter(
+            item =>
+                item.supervisor === supervisor &&
+                item.vendedor === vendedor &&
+                item.dia === dia
+        )
+        .map(item => `${item.codigo} - ${item.razonSocial}`)
+        .join('\n');
+};
+
+// Flujo para preguntas enumeradas
+const flujoConsulta = addKeyword(EVENTS.ACTION)
+    .addAnswer('¿Qué supervisor deseas buscar?\n\n' + obtenerOpcionesEnumeradas('supervisor', data), 
+        { capture: true },
+        async (ctx, { flowDynamic, state }) => {
+            const seleccionSupervisor = parseInt(ctx.body.trim(), 10);
+            const supervisores = [...new Set(data.map(item => item.supervisor))];
+            const supervisor = supervisores[seleccionSupervisor - 1];
+            
+            if (!supervisor) {
+                await flowDynamic('Opción no válida. Por favor selecciona una opción correcta.');
+                return;
+            }
+
+            // Filtrar vendedores que pertenecen al supervisor seleccionado y almacenarlos
+            const vendedoresFiltrados = data.filter(item => item.supervisor === supervisor);
+            await state.update({ supervisor, vendedoresFiltrados });
+
+            await flowDynamic('¿Cuál de sus vendedores?\n\n' + obtenerOpcionesEnumeradas('vendedor', vendedoresFiltrados), { capture: true });
+        }
+    )
+    .addAnswer('-----------------------------------------', 
+        { capture: true },
+        async (ctx, { flowDynamic, state }) => {
+            const seleccionVendedor = parseInt(ctx.body.trim(), 10);
+            const vendedoresFiltrados = state.getMyState().vendedoresFiltrados;
+            const vendedor = obtenerValorPorOpcion([...new Set(vendedoresFiltrados.map(item => item.vendedor))], seleccionVendedor);
+            
+            if (!vendedor) {
+                await flowDynamic('Opción no válida. Por favor selecciona una opción correcta.');
+                return;
+            }
+
+            // Filtrar días que pertenecen al supervisor y vendedor seleccionados y almacenarlos
+            const diasFiltrados = vendedoresFiltrados.filter(item => item.vendedor === vendedor);
+            await state.update({ vendedor, diasFiltrados });
+
+            await flowDynamic('¿Qué día?\n\n' + obtenerOpcionesEnumeradas('dia', diasFiltrados), { capture: true });
+        }
+    )
+    .addAnswer('------------------', 
+        { capture: true },
+        async (ctx, { flowDynamic, state }) => {
+            const seleccionDia = parseInt(ctx.body.trim(), 10);
+            const diasFiltrados = state.getMyState().diasFiltrados;
+            const dia = obtenerValorPorOpcion([...new Set(diasFiltrados.map(item => item.dia))], seleccionDia);
+            
+            if (!dia) {
+                await flowDynamic('Opción no válida. Por favor selecciona una opción correcta.');
+                return;
+            }
+
+            const { supervisor, vendedor } = state.getMyState();
+            const resultado = filtrarPorCriterios(supervisor, vendedor, dia);
+
+            // Registrar el camino seguido por el usuario en el proceso de selección
+            console.log(`2: Vendedor Seleccionado para el ${dia}: ${vendedor}`);
+            
+            await flowDynamic(resultado ? `Tenes que visitar estos clientes SI o SI:\n\n\n${resultado}` : '\nNo se encontraron resultados.');
+        }
+    );
+
+
 
 const leerLineas = (num) => {
   const lineas = csvContent.split('\n');
@@ -150,7 +263,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
  case "1":
  return  gotoFlow(constMenu);
  case "2":
- return  gotoFlow(constAACC);
+ return  gotoFlow(flujoConsulta);
  case "88":
  return  gotoFlow(constConsulta);
  case "0":
@@ -165,7 +278,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([menuFlow,constMenu,constAACC,constConsulta, constPregunta, AACCVaFood, AACCRNE, AACCRNO, AACCRegidor, AACCInterior])
+    const adapterFlow = createFlow([menuFlow,constMenu,constAACC,constConsulta, constPregunta, AACCVaFood, AACCRNE, AACCRNO, AACCRegidor, AACCInterior, flujoConsulta])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
