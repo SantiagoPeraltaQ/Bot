@@ -87,7 +87,6 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
                 return;
             }
 
-            // Filtrar vendedores que pertenecen al supervisor seleccionado y almacenarlos
             const vendedoresFiltrados = data.filter(item => item.supervisor === supervisor);
             await state.update({ supervisor, vendedoresFiltrados });
 
@@ -106,7 +105,6 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
                 return;
             }
 
-            // Filtrar días que pertenecen al supervisor y vendedor seleccionados y almacenarlos
             const diasFiltrados = vendedoresFiltrados.filter(item => item.vendedor === vendedor);
             await state.update({ vendedor, diasFiltrados });
 
@@ -126,12 +124,22 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
             }
 
             const { supervisor, vendedor } = state.getMyState();
-            const resultado = filtrarPorCriterios(supervisor, vendedor, dia);
+            const resultados = filtrarPorCriterios(supervisor, vendedor, dia).split('\n'); // Dividir en resultados individuales
 
-            // Registrar el camino seguido por el usuario en el proceso de selección
-            console.log(`2: Vendedor Seleccionado para el ${dia}: ${vendedor}`);
-            
-            await flowDynamic(resultado ? `Tenes que visitar estos clientes SI o SI:\n\n\n${resultado}` : '\nNo se encontraron resultados.');
+            if (resultados.length === 0) {
+                await flowDynamic('No se encontraron resultados.');
+                return;
+            }
+
+            // Mensaje para los primeros cinco resultados
+            const primerosCinco = resultados.slice(0, 5).join('\n');
+            await flowDynamic(`Tienes que visitar estos clientes SÍ o SÍ:\n\n${primerosCinco}`);
+
+            // Mensaje separado para el sexto resultado si existe
+            if (resultados.length > 5) {
+                const sextoResultado = resultados[5];
+                await flowDynamic(`Tene en cuenta que:\n\n${sextoResultado}`);
+            }
         }
     );
 
