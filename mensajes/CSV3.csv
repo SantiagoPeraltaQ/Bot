@@ -63,9 +63,9 @@
 7169;LUN;FELIX PORTAL;$ 936,496;4;LAWSON KEVIN;NATALIA BUSTAMANTE;1
 14925;LUN;FELIX PORTAL;$ 1,589,773;2;FERREYRA LUCAS;VELLA EZEQUIEL;1
 54698;LUN;LUIS MOLINA ESTE;$ 4,514,934;1;KIOSKO 24;MICHAEL MONJES;1
-57353;LUN;LUIS MOLINA ESTE;$ 711,923;5;CALVO HORACIO VALENTIN;JAVIER REGINATTO;1
+57353;LUN;LUIS MOLINA ESTE;$ 711,923;5;CALVO HORACIO VALENTIN;MARCOS DIAZ;1
 54801;LUN;LUIS MOLINA ESTE;$ 2,008,642;3;GISELA;FEDERICO POSSE;1
-51720;LUN;LUIS MOLINA ESTE;$ 1,369,396;2;MANSILLA CARLOS MARTIN;JAVIER REGINATTO;1
+51720;LUN;LUIS MOLINA ESTE;$ 1,369,396;2;MANSILLA CARLOS MARTIN;MARCOS DIAZ;1
 51732;LUN;LUIS MOLINA ESTE;$ 2,873,698;2;ISABEL SILVA;FEDERICO POSSE;1
 51938;LUN;LUIS MOLINA ESTE;$ 2,754,044;3;MARCHISIO CARLOS ALBERTO;PABLO CORZO;1
 50448;LUN;LUIS MOLINA ESTE;$ 4,429,237;3;PAEZ MAYRA;EZEQUIEL MANZANO;1
@@ -76,15 +76,15 @@
 51622;LUN;LUIS MOLINA ESTE;$ 2,093,404;5;MOYANO CARINA ALEJANDRA AREVA;PABLO CORZO;1
 52514;LUN;LUIS MOLINA ESTE;$ 2,020,003;2;JINGXIAN LIN;MICHAEL MONJES;1
 56949;LUN;LUIS MOLINA ESTE;$ 1,388,552;5;CRISTIAN PAREDES;MICHAEL MONJES;1
-55159;LUN;LUIS MOLINA ESTE;$ 4,097,415;1;JUAN PABLO.;JAVIER REGINATTO;1
+55159;LUN;LUIS MOLINA ESTE;$ 4,097,415;1;JUAN PABLO.;MARCOS DIAZ;1
 55357;LUN;LUIS MOLINA ESTE;$ 3,721,446;4;DESPENSA;EZEQUIEL MANZANO;1
-53364;LUN;LUIS MOLINA ESTE;$ 897,679;3;TOPLINE;JAVIER REGINATTO;1
+53364;LUN;LUIS MOLINA ESTE;$ 897,679;3;TOPLINE;MARCOS DIAZ;1
 52323;LUN;LUIS MOLINA ESTE;$ 1,717,109;4;DIEGO ORELLANA;FEDERICO POSSE;1
 53801;LUN;LUIS MOLINA ESTE;$ 5,501,466;1;NICOLAS DISTRIBUIDORA;EZEQUIEL MANZANO;1
 56388;LUN;LUIS MOLINA ESTE;$ 4,746,183;2;HUGO MAXIMILIANO SOSA;EZEQUIEL MANZANO;1
 56408;LUN;LUIS MOLINA ESTE;$ 3,413,996;2;TORRES MARIA CELESTE;PABLO CORZO;1
 14547;LUN;FELIX PORTAL;$ 1,246,630;3;SASTRE VICTOR;LUCIANO LIGORRIA;1
-51644;LUN;LUIS MOLINA ESTE;$ 797,601;4;DESPENSA VIXKY;JAVIER REGINATTO;1
+51644;LUN;LUIS MOLINA ESTE;$ 797,601;4;DESPENSA VIXKY;MARCOS DIAZ;1
 55439;LUN;LUIS MOLINA ESTE;$ 2,261,165;4;BD S.R.L.;PABLO CORZO;1
 55112;LUN;LUIS MOLINA ESTE;$ 1,757,073;3;FERNANDO CRUZ;MICHAEL MONJES;1
 11388;LUN;ALEJANDRO BUSNARDO;$ 6,440,624;2;OCHOA FEDERICO;EUGENIA BENGOLEA;1
@@ -311,12 +311,12 @@
 50298;MAR;LUIS MOLINA ESTE;$ 1,509,619;1;GIL CLAUDIA;FEDERICO POSSE;2
 52444;MAR;LUIS MOLINA ESTE;$ 5,410,821;2;LEIRIA LUIS RAUL;PABLO CORZO;2
 50330;MAR;LUIS MOLINA ESTE;$ 3,535,186;5;PERALTA FLAVIA MABEL;PABLO CORZO;2
-51742;MAR;LUIS MOLINA ESTE;$ 1,579,848;4;BRESSAN LORENA VERONICA;JAVIER REGINATTO;2
+51742;MAR;LUIS MOLINA ESTE;$ 1,579,848;4;BRESSAN LORENA VERONICA;MARCOS DIAZ;2
 51266;MAR;LUIS MOLINA ESTE;$ 1,391,563;4;LOPEZ MORESI;MICHAEL MONJES;2
 55060;MAR;LUIS MOLINA ESTE;$ 1,290,943;5;MARCOS JAVIER MORA;MICHAEL MONJES;2
-52951;MAR;LUIS MOLINA ESTE;$ 2,212,854;2;ENRRIQUE FRANKLIN;JAVIER REGINATTO;2
-50703;MAR;LUIS MOLINA ESTE;$ 1,163,484;5;YANG JIE;JAVIER REGINATTO;2
-54523;MAR;LUIS MOLINA ESTE;$ 1,657,331;3;CAPPIO;JAVIER REGINATTO;2
+52951;MAR;LUIS MOLINA ESTE;$ 2,212,854;2;ENRRIQUE FRANKLIN;MARCOS DIAZ;2
+50703;MAR;LUIS MOLINA ESTE;$ 1,163,484;5;YANG JIE;MARCOS DIAZ;2
+54523;MAR;LUIS MOLINA ESTE;$ 1,657,331;3;CAPPIO;MARCOS DIAZ;2
 55645;MAR;LUIS MOLINA ESTE;$ 7,410,911;1;LIN LUIS EMANUEL;EZEQUIEL MANZANO;2
 56087;MAR;LUIS MOLINA ESTE;$ 1,723,748;5;ALFIERI FEDERICO;EZEQUIEL MANZANO;2
 51010;MAR;LUIS MOLINA ESTE;$ 907,388;5;ARPRIMA S.A.;FEDERICO POSSE;2
@@ -326,7 +326,7 @@
 53619;MAR;LUIS MOLINA ESTE;$ 10,016,743;1;MARIN LUCAS ESTEBAN;MICHAEL MONJES;2
 55620;MAR;LUIS MOLINA ESTE;$ 4,376,710;3;PARRA MARA JOSE;EZEQUIEL MANZANO;2
 55648;MAR;LUIS MOLINA ESTE;$ 4,634,673;2;KISCO LA LLAVE;EZEQUIEL MANZANO;2
-55687;MAR;LUIS MOLINA ESTE;$ 2,744,231;1;DIAMANTE;JAVIER REGINATTO;2
+55687;MAR;LUIS MOLINA ESTE;$ 2,744,231;1;DIAMANTE;MARCOS DIAZ;2
 54594;MAR;LUIS MOLINA ESTE;$ 4,400,391;3;DISTRIBUIDORA;PABLO CORZO;2
 50980;MAR;LUIS MOLINA ESTE;$ 1,342,219;2;BIOLATTO FLAVIA ANDREA MARIA;FEDERICO POSSE;2
 50089;MAR;LUIS MOLINA ESTE;$ 2,066,506;3;DISTRIBUIDORA EL PILAR S.A.S;MICHAEL MONJES;2
@@ -446,19 +446,19 @@
 71941;MIE;CRISTIAN;$ 1,062,506;5;ZHUANG LIANGHUIDI;BENJAMIN HOYOS;3
 56349;MIE;LUIS MOLINA ESTE;$ 1,982,383;2;ALMACEN ANA;MICHAEL MONJES;3
 57812;MIE;LUIS MOLINA ESTE;$ 1,271,702;5;PAREDES VERONICA;FEDERICO POSSE;3
-56429;MIE;LUIS MOLINA ESTE;$ 2,475,109;4;AYALA GISELA ALEJANDRA;JAVIER REGINATTO;3
+56429;MIE;LUIS MOLINA ESTE;$ 2,475,109;4;AYALA GISELA ALEJANDRA;MARCOS DIAZ;3
 50404;MIE;LUIS MOLINA ESTE;$ 1,973,955;3;LI BING;FEDERICO POSSE;3
 55757;MIE;LUIS MOLINA ESTE;$ 16,718,616;1;MF;EZEQUIEL MANZANO;3
 55607;MIE;LUIS MOLINA ESTE;$ 4,328,536;3;CHEN QINGYONG;EZEQUIEL MANZANO;3
 55603;MIE;LUIS MOLINA ESTE;$ 2,323,879;5;LIN JINTU;EZEQUIEL MANZANO;3
 54773;MIE;LUIS MOLINA ESTE;$ 3,307,818;4;LUCIANO MARIN;EZEQUIEL MANZANO;3
 56711;MIE;LUIS MOLINA ESTE;$ 6,648,701;2;LA GANGA;EZEQUIEL MANZANO;3
-56943;MIE;LUIS MOLINA ESTE;$ 2,838,824;2;DEL CARMEN;JAVIER REGINATTO;3
+56943;MIE;LUIS MOLINA ESTE;$ 2,838,824;2;DEL CARMEN;MARCOS DIAZ;3
 57984;MIE;LUIS MOLINA ESTE;$ 1,557,571;4;CORREA MARÍA ALEJANDRA MELISSA;FEDERICO POSSE;3
 56489;MIE;LUIS MOLINA ESTE;$ 13,649,148;1;ALEJANDRO SENSION;MICHAEL MONJES;3
-57076;MIE;LUIS MOLINA ESTE;$ 2,479,960;3;CERBAN ALEJANDRO;JAVIER REGINATTO;3
-50382;MIE;LUIS MOLINA ESTE;$ 1,617,191;5;BARBOZA ROXANA ANDREA;JAVIER REGINATTO;3
-55706;MIE;LUIS MOLINA ESTE;$ 5,923,025;1;FRANCO;JAVIER REGINATTO;3
+57076;MIE;LUIS MOLINA ESTE;$ 2,479,960;3;CERBAN ALEJANDRO;MARCOS DIAZ;3
+50382;MIE;LUIS MOLINA ESTE;$ 1,617,191;5;BARBOZA ROXANA ANDREA;MARCOS DIAZ;3
+55706;MIE;LUIS MOLINA ESTE;$ 5,923,025;1;FRANCO;MARCOS DIAZ;3
 50051;MIE;LUIS MOLINA ESTE;$ 3,233,781;2;MINIMERCADO FLORES SA;PABLO CORZO;3
 54723;MIE;LUIS MOLINA ESTE;$ 1,900,354;3;AUTOSERVICIO DON LUIS;MICHAEL MONJES;3
 50108;MIE;LUIS MOLINA ESTE;$ 2,780,481;1;CHEN FENG;FEDERICO POSSE;3
@@ -573,12 +573,12 @@
 14859;JUE;FELIX PORTAL;$ 18,680,536;1;VERITIER LUCAS;MARTIN HOYOS;4
 55749;JUE;LUIS MOLINA ESTE;$ 1,003,717;3;LOS HERMANOS FIAMBRERIA;PABLO CORZO;4
 55787;JUE;LUIS MOLINA ESTE;$ 846,867;4;DANIEL ZANFORLIN;PABLO CORZO;4
-51663;JUE;LUIS MOLINA ESTE;$ 899,283;5;GIGENA MONICA;JAVIER REGINATTO;4
-51678;JUE;LUIS MOLINA ESTE;$ 2,634,143;2;SANCHEZ JULIO;JAVIER REGINATTO;4
-51671;JUE;LUIS MOLINA ESTE;$ 908,479;4;SANCHEZ SILVANA;JAVIER REGINATTO;4
+51663;JUE;LUIS MOLINA ESTE;$ 899,283;5;GIGENA MONICA;MARCOS DIAZ;4
+51678;JUE;LUIS MOLINA ESTE;$ 2,634,143;2;SANCHEZ JULIO;MARCOS DIAZ;4
+51671;JUE;LUIS MOLINA ESTE;$ 908,479;4;SANCHEZ SILVANA;MARCOS DIAZ;4
 56291;JUE;LUIS MOLINA ESTE;$ 2,680,209;5;ARAMBURO KARINA ROXANA;FEDERICO POSSE;4
 55390;JUE;LUIS MOLINA ESTE;$ 3,274,350;2;AIRAUDO DAMIAN ALEJANDRO;FEDERICO POSSE;4
-56431;JUE;LUIS MOLINA ESTE;$ 3,350,507;1;SUPER GLORIA S.A.S.;JAVIER REGINATTO;4
+56431;JUE;LUIS MOLINA ESTE;$ 3,350,507;1;SUPER GLORIA S.A.S.;MARCOS DIAZ;4
 55897;JUE;LUIS MOLINA ESTE;$ 3,043,276;2;DISTRIBUIDORA 70/30 CAROYA;MICHAEL MONJES;4
 52820;JUE;LUIS MOLINA ESTE;$ 3,170,710;3;SUPERMERCADO SOL;FEDERICO POSSE;4
 56365;JUE;LUIS MOLINA ESTE;$ 762,949;5;DISTRIBUIDORA LA FAMILIA (MART;PABLO CORZO;4
@@ -593,7 +593,7 @@
 55998;JUE;LUIS MOLINA ESTE;$ 5,418,518;1;GABRIELA RIVAROLA;MICHAEL MONJES;4
 12153;JUE;FELIX PORTAL;$ 978,858;5;MAXIKIOSCO LOS OLMOS;MARTIN HOYOS;4
 55957;JUE;LUIS MOLINA ESTE;$ 1,389,245;2;D FELICE JOAQUIN;PABLO CORZO;4
-55114;JUE;LUIS MOLINA ESTE;$ 1,137,178;3;MARTINEZ KAREN BRENDA;JAVIER REGINATTO;4
+55114;JUE;LUIS MOLINA ESTE;$ 1,137,178;3;MARTINEZ KAREN BRENDA;MARCOS DIAZ;4
 56395;JUE;LUIS MOLINA ESTE;$ 5,340,565;2;DISTRI. MANAOS;EZEQUIEL MANZANO;4
 55921;JUE;LUIS MOLINA ESTE;$ 1,922,743;3;SUPER AR;MICHAEL MONJES;4
 79892;JUE;CRISTIAN;$ 1,222,236;5;JESSICA ALGAÑARAZ;NICOLÁS FAVALLI;4
@@ -766,22 +766,22 @@
 55053;VIE;LUIS MOLINA ESTE;$ 428,025;2;IGLESIAS;MICHAEL MONJES;5
 50989;VIE;LUIS MOLINA ESTE;$ 371,152;4;NICOLAS PEREYRA;MICHAEL MONJES;5
 56945;VIE;LUIS MOLINA ESTE;$ 8,821,678;2;BONINO 2 -RETIRA DISTRI;EZEQUIEL MANZANO;5
-55479;VIE;LUIS MOLINA ESTE;$ 2,382,472;2;ERICA NAVARRO;JAVIER REGINATTO;5
+55479;VIE;LUIS MOLINA ESTE;$ 2,382,472;2;ERICA NAVARRO;MARCOS DIAZ;5
 54658;VIE;LUIS MOLINA ESTE;$ 1,615,286;4;CHABELA;EZEQUIEL MANZANO;5
 50575;VIE;LUIS MOLINA ESTE;$ 411,738;3;CHEN YAN;MICHAEL MONJES;5
 50491;VIE;LUIS MOLINA ESTE;$ 1,790,197;4;LI LIBIN;PABLO CORZO;5
 50986;VIE;LUIS MOLINA ESTE;$ 1,631,261;5;FANG JIAN YOU;FEDERICO POSSE;5
 50253;VIE;LUIS MOLINA ESTE;$ 1,662,432;3;DESPENSA FRANCO;EZEQUIEL MANZANO;5
-56944;VIE;LUIS MOLINA ESTE;$ 1,281,245;4;NATALIA SANTINI;JAVIER REGINATTO;5
-57871;VIE;LUIS MOLINA ESTE;$ 1,296,171;3;MYMCORP S.R.L.;JAVIER REGINATTO;5
-57930;VIE;LUIS MOLINA ESTE;$ 1,007,377;5;MARIANA PEZZINI;JAVIER REGINATTO;5
+56944;VIE;LUIS MOLINA ESTE;$ 1,281,245;4;NATALIA SANTINI;MARCOS DIAZ;5
+57871;VIE;LUIS MOLINA ESTE;$ 1,296,171;3;MYMCORP S.R.L.;MARCOS DIAZ;5
+57930;VIE;LUIS MOLINA ESTE;$ 1,007,377;5;MARIANA PEZZINI;MARCOS DIAZ;5
 51735;VIE;LUIS MOLINA ESTE;$ 11,110,480;1;BONINO WILIAMS;EZEQUIEL MANZANO;5
 50505;VIE;LUIS MOLINA ESTE;$ 1,621,472;5;ALMACEN 24 HORAS;PABLO CORZO;5
 51560;VIE;LUIS MOLINA ESTE;$ 1,955,587;4;ROMERO GABRIEL ALEJANDRO;FEDERICO POSSE;5
 50876;VIE;LUIS MOLINA ESTE;$ 1,242,577;5;CHIALVO ROBERTO;EZEQUIEL MANZANO;5
 53380;VIE;LUIS MOLINA ESTE;$ 4,489,076;2;D&G DISTRIBUIDORA;PABLO CORZO;5
 54996;VIE;LUIS MOLINA ESTE;$ 1,833,559;3;PABLO REBELLATO;PABLO CORZO;5
-56950;VIE;LUIS MOLINA ESTE;$ 2,796,106;1;FEDERICO GALLARDO;JAVIER REGINATTO;5
+56950;VIE;LUIS MOLINA ESTE;$ 2,796,106;1;FEDERICO GALLARDO;MARCOS DIAZ;5
 57340;VIE;LUIS MOLINA ESTE;$ 6,599,682;1;WANG LIANG;PABLO CORZO;5
 51411;VIE;LUIS MOLINA ESTE;$ 2,222,509;3;DISTRIBUIDORA SALVADOR;FEDERICO POSSE;5
 56869;VIE;LUIS MOLINA ESTE;$ 776,246;1;GENERAL DE ABSTECIMIENTO;MICHAEL MONJES;5
@@ -925,189 +925,189 @@
 59041;TARDE;LUIS MOLINA OESTE;$ 830,642;2;MAYORISTA DISTRIBUIDOR LAS PAL;ALDANA SABADIAS;6
 58668;TARDE;LUIS MOLINA OESTE;$ 346,788;5;ACOSTA FRANCISCO OMAR;ALDANA SABADIAS;6
 58886;TARDE;LUIS MOLINA OESTE;$ 390,324;4;MAXIMILIANO GIGENA;ALDANA SABADIAS;6
-Hoy venís al 50.46% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,200,903.73 lo que te daría $665,000.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
-Hoy venís al 88.82% de tu avance. Si seguís así, tu premio sería de $577,310.98 pesos, Para llegar al 95% deberías vender $632,291.36 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
-Hoy venís al 63.19% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,179,948.95 lo que te daría $570,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
-Hoy venís al 74.99% de tu avance. Si seguís así, tu premio sería de $243,711.62 pesos, Para llegar al 95% deberías vender $2,251,340.83 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
-Hoy venís al 76.63% de tu avance. Si seguís así, tu premio sería de $333,353.00 pesos, Para llegar al 95% deberías vender $4,466,886.09 lo que te daría $826,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
-Hoy venís al 84.30% de tu avance. Si seguís así, tu premio sería de $295,062.63 pesos, Para llegar al 95% deberías vender $1,363,033.39 lo que te daría $665,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
-Hoy venís al 102.41% de tu avance. Si seguís así, tu premio sería de $732,204.03 pesos;LUN;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
-Hoy venís al 77.16% de tu avance. Si seguís así, tu premio sería de $231,472.90 pesos, Para llegar al 95% deberías vender $1,666,559.92 lo que te daría $570,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
-Hoy venís al 78.63% de tu avance. Si seguís así, tu premio sería de $255,560.05 pesos, Para llegar al 95% deberías vender $1,740,154.60 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
-Hoy venís al 89.76% de tu avance. Si seguís así, tu premio sería de $493,672.07 pesos, Para llegar al 95% deberías vender $468,867.27 lo que te daría $522,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
-Hoy venís al 71.33% de tu avance. Si seguís así, tu premio sería de $231,830.55 pesos, Para llegar al 95% deberías vender $2,583,443.35 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
-Hoy venís al 73.70% de tu avance. Si seguís así, tu premio sería de $239,517.80 pesos, Para llegar al 95% deberías vender $2,152,927.72 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
-Hoy venís al 75.13% de tu avance. Si seguís así, tu premio sería de $281,735.42 pesos, Para llegar al 95% deberías vender $2,913,061.59 lo que te daría $712,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
-Hoy venís al 74.21% de tu avance. Si seguís así, tu premio sería de $222,616.68 pesos, Para llegar al 95% deberías vender $1,950,782.17 lo que te daría $570,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
-Hoy venís al 75.98% de tu avance. Si seguís así, tu premio sería de $246,928.56 pesos, Para llegar al 95% deberías vender $2,025,288.86 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
-Hoy venís al 84.59% de tu avance. Si seguís así, tu premio sería de $253,784.23 pesos, Para llegar al 95% deberías vender $999,051.13 lo que te daría $570,000.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;JAVIER REGINATTO;7
-Hoy venís al 22.31% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,863,619.35 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
-Hoy venís al 82.87% de tu avance. Si seguís así, tu premio sería de $331,463.77 pesos, Para llegar al 95% deberías vender $2,176,039.20 lo que te daría $760,000.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
-Hoy venís al 139.83% de tu avance. Si seguís así, tu premio sería de $1,076,666.82 pesos;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
-Hoy venís al 41.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $9,065,751.82 lo que te daría $760,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
-Hoy venís al 40.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,615,079.49 lo que te daría $712,500.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
-Hoy venís al 82.11% de tu avance. Si seguís así, tu premio sería de $348,949.31 pesos, Para llegar al 95% deberías vender $2,348,386.53 lo que te daría $807,500.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
+Hoy venís al 57.04% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,606,863.47 lo que te daría $665,000.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
+Hoy venís al 87.51% de tu avance. Si seguís así, tu premio sería de $568,805.58 pesos, Para llegar al 95% deberías vender $957,632.74 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,094,693.00 lo que te daría $570,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
+Hoy venís al 78.89% de tu avance. Si seguís así, tu premio sería de $256,389.44 pesos, Para llegar al 95% deberías vender $2,265,613.83 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
+Hoy venís al 75.92% de tu avance. Si seguís así, tu premio sería de $330,236.57 pesos, Para llegar al 95% deberías vender $5,801,399.95 lo que te daría $826,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
+Hoy venís al 80.70% de tu avance. Si seguís así, tu premio sería de $282,457.34 pesos, Para llegar al 95% deberías vender $2,277,463.94 lo que te daría $665,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
+Hoy venís al 103.20% de tu avance. Si seguís así, tu premio sería de $737,870.27 pesos;LUN;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
+Hoy venís al 81.46% de tu avance. Si seguís así, tu premio sería de $244,377.90 pesos, Para llegar al 95% deberías vender $1,580,955.45 lo que te daría $570,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
+Hoy venís al 89.77% de tu avance. Si seguís así, tu premio sería de $583,488.19 pesos, Para llegar al 95% deberías vender $695,453.27 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
+Hoy venís al 86.99% de tu avance. Si seguís así, tu premio sería de $478,421.01 pesos, Para llegar al 95% deberías vender $896,144.77 lo que te daría $522,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
+Hoy venís al 81.70% de tu avance. Si seguís así, tu premio sería de $265,522.45 pesos, Para llegar al 95% deberías vender $1,814,819.31 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
+Hoy venís al 89.28% de tu avance. Si seguís así, tu premio sería de $580,350.33 pesos, Para llegar al 95% deberías vender $722,031.68 lo que te daría $617,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
+Hoy venís al 79.40% de tu avance. Si seguís así, tu premio sería de $297,749.16 pesos, Para llegar al 95% deberías vender $2,858,778.96 lo que te daría $712,500.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
+Hoy venís al 66.30% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,366,018.54 lo que te daría $570,000.00 de premio;LUN;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
+Hoy venís al 59.68% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,700,681.44 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
+Hoy venís al 65.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,509,299.29 lo que te daría $570,000.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;MARCOS DIAZ;7
+Sin Premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
+Hoy venís al 87.85% de tu avance. Si seguís así, tu premio sería de $702,815.52 pesos, Para llegar al 95% deberías vender $1,602,355.66 lo que te daría $760,000.00 de premio;LUN;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
+Hoy venís al 111.07% de tu avance. Si seguís así, tu premio sería de $855,238.25 pesos;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
+Hoy venís al 100.50% de tu avance. Si seguís así, tu premio sería de $884,403.63 pesos;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,432,416.57 lo que te daría $712,500.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
+Hoy venís al 65.25% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,771,769.01 lo que te daría $807,500.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
 Sin Premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;LAUTARO LOPEZ;7
-Hoy venís al 85.03% de tu avance. Si seguís así, tu premio sería de $255,095.88 pesos, Para llegar al 95% deberías vender $920,841.20 lo que te daría $570,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
-Hoy venís al 71.45% de tu avance. Si seguís así, tu premio sería de $250,090.04 pesos, Para llegar al 95% deberías vender $3,263,336.24 lo que te daría $665,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
-Hoy venís al 87.81% de tu avance. Si seguís así, tu premio sería de $614,691.15 pesos, Para llegar al 95% deberías vender $1,027,089.52 lo que te daría $665,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
-Hoy venís al 27.62% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,904,366.02 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
-Hoy venís al 28.98% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $7,149,739.81 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
-Hoy venís al 38.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,090,982.53 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
-Hoy venís al 39.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,117,221.17 lo que te daría $617,500.00 de premio;LUN;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
-Hoy venís al 68.94% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,417,918.14 lo que te daría $665,000.00 de premio;LUN;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
-Hoy venís al 74.82% de tu avance. Si seguís así, tu premio sería de $243,174.45 pesos, Para llegar al 95% deberías vender $2,228,911.81 lo que te daría $617,500.00 de premio;LUN;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
-Hoy venís al 91.41% de tu avance. Si seguís así, tu premio sería de $685,560.52 pesos, Para llegar al 95% deberías vender $516,375.87 lo que te daría $712,500.00 de premio;LUN;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
-Hoy venís al 45.71% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,411,943.80 lo que te daría $617,500.00 de premio;LUN;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
-Hoy venís al 139.83% de tu avance. Si seguís así, tu premio sería de $1,076,666.82 pesos;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
-Hoy venís al 88.82% de tu avance. Si seguís así, tu premio sería de $577,310.98 pesos, Para llegar al 95% deberías vender $632,291.36 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
-Hoy venís al 74.99% de tu avance. Si seguís así, tu premio sería de $243,711.62 pesos, Para llegar al 95% deberías vender $2,251,340.83 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
-Hoy venís al 74.21% de tu avance. Si seguís así, tu premio sería de $222,616.68 pesos, Para llegar al 95% deberías vender $1,950,782.17 lo que te daría $570,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
-Hoy venís al 76.63% de tu avance. Si seguís así, tu premio sería de $333,353.00 pesos, Para llegar al 95% deberías vender $4,466,886.09 lo que te daría $826,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
-Hoy venís al 102.41% de tu avance. Si seguís así, tu premio sería de $732,204.03 pesos;MAR;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
-Hoy venís al 71.33% de tu avance. Si seguís así, tu premio sería de $231,830.55 pesos, Para llegar al 95% deberías vender $2,583,443.35 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
-Hoy venís al 63.19% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,179,948.95 lo que te daría $570,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
-Hoy venís al 89.76% de tu avance. Si seguís así, tu premio sería de $493,672.07 pesos, Para llegar al 95% deberías vender $468,867.27 lo que te daría $522,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
-Hoy venís al 78.63% de tu avance. Si seguís así, tu premio sería de $255,560.05 pesos, Para llegar al 95% deberías vender $1,740,154.60 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
-Hoy venís al 77.16% de tu avance. Si seguís así, tu premio sería de $231,472.90 pesos, Para llegar al 95% deberías vender $1,666,559.92 lo que te daría $570,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
-Hoy venís al 75.13% de tu avance. Si seguís así, tu premio sería de $281,735.42 pesos, Para llegar al 95% deberías vender $2,913,061.59 lo que te daría $712,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
-Hoy venís al 84.30% de tu avance. Si seguís así, tu premio sería de $295,062.63 pesos, Para llegar al 95% deberías vender $1,363,033.39 lo que te daría $665,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
-Hoy venís al 73.70% de tu avance. Si seguís así, tu premio sería de $239,517.80 pesos, Para llegar al 95% deberías vender $2,152,927.72 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
+Hoy venís al 86.13% de tu avance. Si seguís así, tu premio sería de $516,752.97 pesos, Para llegar al 95% deberías vender $1,024,776.36 lo que te daría $570,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
+Hoy venís al 73.20% de tu avance. Si seguís así, tu premio sería de $256,212.27 pesos, Para llegar al 95% deberías vender $3,776,128.82 lo que te daría $665,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
+Hoy venís al 88.89% de tu avance. Si seguís así, tu premio sería de $622,255.00 pesos, Para llegar al 95% deberías vender $1,090,835.48 lo que te daría $665,000.00 de premio;LUN;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
+Hoy venís al 55.65% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,040,560.91 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
+Hoy venís al 58.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,892,431.92 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
+Hoy venís al 50.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,975,174.49 lo que te daría $617,500.00 de premio;LUN;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
+Hoy venís al 85.47% de tu avance. Si seguís así, tu premio sería de $277,771.49 pesos, Para llegar al 95% deberías vender $694,087.68 lo que te daría $617,500.00 de premio;LUN;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
+Hoy venís al 231.49% de tu avance. Si seguís así, tu premio sería de $1,782,455.23 pesos;LUN;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
+Hoy venís al 190.17% de tu avance. Si seguís así, tu premio sería de $1,359,696.91 pesos;LUN;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
+Hoy venís al 301.40% de tu avance. Si seguís así, tu premio sería de $2,486,551.85 pesos;LUN;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
+Hoy venís al 141.88% de tu avance. Si seguís así, tu premio sería de $1,014,432.12 pesos;LUN;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
+Hoy venís al 111.07% de tu avance. Si seguís así, tu premio sería de $855,238.25 pesos;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
+Hoy venís al 87.51% de tu avance. Si seguís así, tu premio sería de $568,805.58 pesos, Para llegar al 95% deberías vender $957,632.74 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
+Hoy venís al 78.89% de tu avance. Si seguís así, tu premio sería de $256,389.44 pesos, Para llegar al 95% deberías vender $2,265,613.83 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
+Hoy venís al 66.30% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,366,018.54 lo que te daría $570,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
+Hoy venís al 75.92% de tu avance. Si seguís así, tu premio sería de $330,236.57 pesos, Para llegar al 95% deberías vender $5,801,399.95 lo que te daría $826,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
+Hoy venís al 103.20% de tu avance. Si seguís así, tu premio sería de $737,870.27 pesos;MAR;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
+Hoy venís al 81.70% de tu avance. Si seguís así, tu premio sería de $265,522.45 pesos, Para llegar al 95% deberías vender $1,814,819.31 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,094,693.00 lo que te daría $570,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
+Hoy venís al 86.99% de tu avance. Si seguís así, tu premio sería de $478,421.01 pesos, Para llegar al 95% deberías vender $896,144.77 lo que te daría $522,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
+Hoy venís al 89.77% de tu avance. Si seguís así, tu premio sería de $583,488.19 pesos, Para llegar al 95% deberías vender $695,453.27 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
+Hoy venís al 81.46% de tu avance. Si seguís así, tu premio sería de $244,377.90 pesos, Para llegar al 95% deberías vender $1,580,955.45 lo que te daría $570,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
+Hoy venís al 79.40% de tu avance. Si seguís así, tu premio sería de $297,749.16 pesos, Para llegar al 95% deberías vender $2,858,778.96 lo que te daría $712,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
+Hoy venís al 80.70% de tu avance. Si seguís así, tu premio sería de $282,457.34 pesos, Para llegar al 95% deberías vender $2,277,463.94 lo que te daría $665,000.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
+Hoy venís al 89.28% de tu avance. Si seguís así, tu premio sería de $580,350.33 pesos, Para llegar al 95% deberías vender $722,031.68 lo que te daría $617,500.00 de premio;MAR;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
 Sin Premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;LAUTARO LOPEZ;7
-Hoy venís al 85.03% de tu avance. Si seguís así, tu premio sería de $255,095.88 pesos, Para llegar al 95% deberías vender $920,841.20 lo que te daría $570,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
-Hoy venís al 41.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $9,065,751.82 lo que te daría $760,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
-Hoy venís al 87.81% de tu avance. Si seguís así, tu premio sería de $614,691.15 pesos, Para llegar al 95% deberías vender $1,027,089.52 lo que te daría $665,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
-Hoy venís al 40.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,615,079.49 lo que te daría $712,500.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
-Hoy venís al 82.11% de tu avance. Si seguís así, tu premio sería de $348,949.31 pesos, Para llegar al 95% deberías vender $2,348,386.53 lo que te daría $807,500.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
-Hoy venís al 71.45% de tu avance. Si seguís así, tu premio sería de $250,090.04 pesos, Para llegar al 95% deberías vender $3,263,336.24 lo que te daría $665,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
-Hoy venís al 45.71% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,411,943.80 lo que te daría $617,500.00 de premio;MAR;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
-Hoy venís al 68.94% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,417,918.14 lo que te daría $665,000.00 de premio;MAR;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
-Hoy venís al 74.82% de tu avance. Si seguís así, tu premio sería de $243,174.45 pesos, Para llegar al 95% deberías vender $2,228,911.81 lo que te daría $617,500.00 de premio;MAR;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
-Hoy venís al 91.41% de tu avance. Si seguís así, tu premio sería de $685,560.52 pesos, Para llegar al 95% deberías vender $516,375.87 lo que te daría $712,500.00 de premio;MAR;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
-Hoy venís al 39.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,117,221.17 lo que te daría $617,500.00 de premio;MAR;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
-Hoy venís al 27.62% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,904,366.02 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
-Hoy venís al 28.98% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $7,149,739.81 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
-Hoy venís al 38.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,090,982.53 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
-Hoy venís al 50.46% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,200,903.73 lo que te daría $665,000.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
-Hoy venís al 22.31% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,863,619.35 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
-Hoy venís al 84.59% de tu avance. Si seguís así, tu premio sería de $253,784.23 pesos, Para llegar al 95% deberías vender $999,051.13 lo que te daría $570,000.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;JAVIER REGINATTO;7
-Hoy venís al 75.98% de tu avance. Si seguís así, tu premio sería de $246,928.56 pesos, Para llegar al 95% deberías vender $2,025,288.86 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
-Hoy venís al 82.87% de tu avance. Si seguís así, tu premio sería de $331,463.77 pesos, Para llegar al 95% deberías vender $2,176,039.20 lo que te daría $760,000.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
-Hoy venís al 22.31% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,863,619.35 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
-Hoy venís al 78.63% de tu avance. Si seguís así, tu premio sería de $255,560.05 pesos, Para llegar al 95% deberías vender $1,740,154.60 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
-Hoy venís al 73.70% de tu avance. Si seguís así, tu premio sería de $239,517.80 pesos, Para llegar al 95% deberías vender $2,152,927.72 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
-Hoy venís al 63.19% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,179,948.95 lo que te daría $570,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
-Hoy venís al 74.99% de tu avance. Si seguís así, tu premio sería de $243,711.62 pesos, Para llegar al 95% deberías vender $2,251,340.83 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
-Hoy venís al 74.21% de tu avance. Si seguís así, tu premio sería de $222,616.68 pesos, Para llegar al 95% deberías vender $1,950,782.17 lo que te daría $570,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
-Hoy venís al 77.16% de tu avance. Si seguís así, tu premio sería de $231,472.90 pesos, Para llegar al 95% deberías vender $1,666,559.92 lo que te daría $570,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
-Hoy venís al 71.33% de tu avance. Si seguís así, tu premio sería de $231,830.55 pesos, Para llegar al 95% deberías vender $2,583,443.35 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
-Hoy venís al 75.13% de tu avance. Si seguís así, tu premio sería de $281,735.42 pesos, Para llegar al 95% deberías vender $2,913,061.59 lo que te daría $712,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
-Hoy venís al 102.41% de tu avance. Si seguís así, tu premio sería de $732,204.03 pesos;MIE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
-Hoy venís al 76.63% de tu avance. Si seguís así, tu premio sería de $333,353.00 pesos, Para llegar al 95% deberías vender $4,466,886.09 lo que te daría $826,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
-Hoy venís al 89.76% de tu avance. Si seguís así, tu premio sería de $493,672.07 pesos, Para llegar al 95% deberías vender $468,867.27 lo que te daría $522,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
-Hoy venís al 84.30% de tu avance. Si seguís así, tu premio sería de $295,062.63 pesos, Para llegar al 95% deberías vender $1,363,033.39 lo que te daría $665,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
-Hoy venís al 88.82% de tu avance. Si seguís así, tu premio sería de $577,310.98 pesos, Para llegar al 95% deberías vender $632,291.36 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
-Hoy venís al 28.98% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $7,149,739.81 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
-Hoy venís al 27.62% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,904,366.02 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
-Hoy venís al 38.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,090,982.53 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
-Hoy venís al 45.71% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,411,943.80 lo que te daría $617,500.00 de premio;MIE;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
-Hoy venís al 39.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,117,221.17 lo que te daría $617,500.00 de premio;MIE;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
-Hoy venís al 91.41% de tu avance. Si seguís así, tu premio sería de $685,560.52 pesos, Para llegar al 95% deberías vender $516,375.87 lo que te daría $712,500.00 de premio;MIE;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
-Hoy venís al 68.94% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,417,918.14 lo que te daría $665,000.00 de premio;MIE;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
-Hoy venís al 74.82% de tu avance. Si seguís así, tu premio sería de $243,174.45 pesos, Para llegar al 95% deberías vender $2,228,911.81 lo que te daría $617,500.00 de premio;MIE;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
-Hoy venís al 75.98% de tu avance. Si seguís así, tu premio sería de $246,928.56 pesos, Para llegar al 95% deberías vender $2,025,288.86 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
-Hoy venís al 50.46% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,200,903.73 lo que te daría $665,000.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
-Hoy venís al 84.59% de tu avance. Si seguís así, tu premio sería de $253,784.23 pesos, Para llegar al 95% deberías vender $999,051.13 lo que te daría $570,000.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;JAVIER REGINATTO;7
-Hoy venís al 82.87% de tu avance. Si seguís así, tu premio sería de $331,463.77 pesos, Para llegar al 95% deberías vender $2,176,039.20 lo que te daría $760,000.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
-Hoy venís al 85.03% de tu avance. Si seguís así, tu premio sería de $255,095.88 pesos, Para llegar al 95% deberías vender $920,841.20 lo que te daría $570,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
-Hoy venís al 139.83% de tu avance. Si seguís así, tu premio sería de $1,076,666.82 pesos;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
-Hoy venís al 71.45% de tu avance. Si seguís así, tu premio sería de $250,090.04 pesos, Para llegar al 95% deberías vender $3,263,336.24 lo que te daría $665,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
-Hoy venís al 82.11% de tu avance. Si seguís así, tu premio sería de $348,949.31 pesos, Para llegar al 95% deberías vender $2,348,386.53 lo que te daría $807,500.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
-Hoy venís al 41.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $9,065,751.82 lo que te daría $760,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
-Hoy venís al 40.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,615,079.49 lo que te daría $712,500.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
-Hoy venís al 87.81% de tu avance. Si seguís así, tu premio sería de $614,691.15 pesos, Para llegar al 95% deberías vender $1,027,089.52 lo que te daría $665,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
+Hoy venís al 86.13% de tu avance. Si seguís así, tu premio sería de $516,752.97 pesos, Para llegar al 95% deberías vender $1,024,776.36 lo que te daría $570,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
+Hoy venís al 100.50% de tu avance. Si seguís así, tu premio sería de $884,403.63 pesos;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
+Hoy venís al 88.89% de tu avance. Si seguís así, tu premio sería de $622,255.00 pesos, Para llegar al 95% deberías vender $1,090,835.48 lo que te daría $665,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,432,416.57 lo que te daría $712,500.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
+Hoy venís al 65.25% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,771,769.01 lo que te daría $807,500.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
+Hoy venís al 73.20% de tu avance. Si seguís así, tu premio sería de $256,212.27 pesos, Para llegar al 95% deberías vender $3,776,128.82 lo que te daría $665,000.00 de premio;MAR;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
+Hoy venís al 141.88% de tu avance. Si seguís así, tu premio sería de $1,014,432.12 pesos;MAR;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
+Hoy venís al 231.49% de tu avance. Si seguís así, tu premio sería de $1,782,455.23 pesos;MAR;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
+Hoy venís al 190.17% de tu avance. Si seguís así, tu premio sería de $1,359,696.91 pesos;MAR;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
+Hoy venís al 301.40% de tu avance. Si seguís así, tu premio sería de $2,486,551.85 pesos;MAR;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
+Hoy venís al 85.47% de tu avance. Si seguís así, tu premio sería de $277,771.49 pesos, Para llegar al 95% deberías vender $694,087.68 lo que te daría $617,500.00 de premio;MAR;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
+Hoy venís al 55.65% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,040,560.91 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
+Hoy venís al 58.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,892,431.92 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
+Hoy venís al 50.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,975,174.49 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
+Hoy venís al 57.04% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,606,863.47 lo que te daría $665,000.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
+Sin Premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
+Hoy venís al 65.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,509,299.29 lo que te daría $570,000.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;MARCOS DIAZ;7
+Hoy venís al 59.68% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,700,681.44 lo que te daría $617,500.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
+Hoy venís al 87.85% de tu avance. Si seguís así, tu premio sería de $702,815.52 pesos, Para llegar al 95% deberías vender $1,602,355.66 lo que te daría $760,000.00 de premio;MAR;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
+Sin Premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
+Hoy venís al 89.77% de tu avance. Si seguís así, tu premio sería de $583,488.19 pesos, Para llegar al 95% deberías vender $695,453.27 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
+Hoy venís al 89.28% de tu avance. Si seguís así, tu premio sería de $580,350.33 pesos, Para llegar al 95% deberías vender $722,031.68 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,094,693.00 lo que te daría $570,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
+Hoy venís al 78.89% de tu avance. Si seguís así, tu premio sería de $256,389.44 pesos, Para llegar al 95% deberías vender $2,265,613.83 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
+Hoy venís al 66.30% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,366,018.54 lo que te daría $570,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
+Hoy venís al 81.46% de tu avance. Si seguís así, tu premio sería de $244,377.90 pesos, Para llegar al 95% deberías vender $1,580,955.45 lo que te daría $570,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
+Hoy venís al 81.70% de tu avance. Si seguís así, tu premio sería de $265,522.45 pesos, Para llegar al 95% deberías vender $1,814,819.31 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
+Hoy venís al 79.40% de tu avance. Si seguís así, tu premio sería de $297,749.16 pesos, Para llegar al 95% deberías vender $2,858,778.96 lo que te daría $712,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
+Hoy venís al 103.20% de tu avance. Si seguís así, tu premio sería de $737,870.27 pesos;MIE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
+Hoy venís al 75.92% de tu avance. Si seguís así, tu premio sería de $330,236.57 pesos, Para llegar al 95% deberías vender $5,801,399.95 lo que te daría $826,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
+Hoy venís al 86.99% de tu avance. Si seguís así, tu premio sería de $478,421.01 pesos, Para llegar al 95% deberías vender $896,144.77 lo que te daría $522,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
+Hoy venís al 80.70% de tu avance. Si seguís así, tu premio sería de $282,457.34 pesos, Para llegar al 95% deberías vender $2,277,463.94 lo que te daría $665,000.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
+Hoy venís al 87.51% de tu avance. Si seguís así, tu premio sería de $568,805.58 pesos, Para llegar al 95% deberías vender $957,632.74 lo que te daría $617,500.00 de premio;MIE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
+Hoy venís al 58.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,892,431.92 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
+Hoy venís al 55.65% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,040,560.91 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
+Hoy venís al 50.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,975,174.49 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
+Hoy venís al 141.88% de tu avance. Si seguís así, tu premio sería de $1,014,432.12 pesos;MIE;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
+Hoy venís al 85.47% de tu avance. Si seguís así, tu premio sería de $277,771.49 pesos, Para llegar al 95% deberías vender $694,087.68 lo que te daría $617,500.00 de premio;MIE;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
+Hoy venís al 301.40% de tu avance. Si seguís así, tu premio sería de $2,486,551.85 pesos;MIE;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
+Hoy venís al 231.49% de tu avance. Si seguís así, tu premio sería de $1,782,455.23 pesos;MIE;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
+Hoy venís al 190.17% de tu avance. Si seguís así, tu premio sería de $1,359,696.91 pesos;MIE;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
+Hoy venís al 59.68% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,700,681.44 lo que te daría $617,500.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
+Hoy venís al 57.04% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,606,863.47 lo que te daría $665,000.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
+Hoy venís al 65.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,509,299.29 lo que te daría $570,000.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;MARCOS DIAZ;7
+Hoy venís al 87.85% de tu avance. Si seguís así, tu premio sería de $702,815.52 pesos, Para llegar al 95% deberías vender $1,602,355.66 lo que te daría $760,000.00 de premio;MIE;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
+Hoy venís al 86.13% de tu avance. Si seguís así, tu premio sería de $516,752.97 pesos, Para llegar al 95% deberías vender $1,024,776.36 lo que te daría $570,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
+Hoy venís al 111.07% de tu avance. Si seguís así, tu premio sería de $855,238.25 pesos;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
+Hoy venís al 73.20% de tu avance. Si seguís así, tu premio sería de $256,212.27 pesos, Para llegar al 95% deberías vender $3,776,128.82 lo que te daría $665,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
+Hoy venís al 65.25% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,771,769.01 lo que te daría $807,500.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
+Hoy venís al 100.50% de tu avance. Si seguís así, tu premio sería de $884,403.63 pesos;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,432,416.57 lo que te daría $712,500.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
+Hoy venís al 88.89% de tu avance. Si seguís así, tu premio sería de $622,255.00 pesos, Para llegar al 95% deberías vender $1,090,835.48 lo que te daría $665,000.00 de premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
 Sin Premio;MIE;ALEJANDRO BUSNARDO;$ 0;6;.;LAUTARO LOPEZ;7
-Hoy venís al 82.87% de tu avance. Si seguís así, tu premio sería de $331,463.77 pesos, Para llegar al 95% deberías vender $2,176,039.20 lo que te daría $760,000.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
-Hoy venís al 76.63% de tu avance. Si seguís así, tu premio sería de $333,353.00 pesos, Para llegar al 95% deberías vender $4,466,886.09 lo que te daría $826,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
-Hoy venís al 88.82% de tu avance. Si seguís así, tu premio sería de $577,310.98 pesos, Para llegar al 95% deberías vender $632,291.36 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
-Hoy venís al 74.99% de tu avance. Si seguís así, tu premio sería de $243,711.62 pesos, Para llegar al 95% deberías vender $2,251,340.83 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
-Hoy venís al 63.19% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,179,948.95 lo que te daría $570,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
-Hoy venís al 74.21% de tu avance. Si seguís así, tu premio sería de $222,616.68 pesos, Para llegar al 95% deberías vender $1,950,782.17 lo que te daría $570,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
-Hoy venís al 84.30% de tu avance. Si seguís así, tu premio sería de $295,062.63 pesos, Para llegar al 95% deberías vender $1,363,033.39 lo que te daría $665,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
-Hoy venís al 77.16% de tu avance. Si seguís así, tu premio sería de $231,472.90 pesos, Para llegar al 95% deberías vender $1,666,559.92 lo que te daría $570,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
-Hoy venís al 75.13% de tu avance. Si seguís así, tu premio sería de $281,735.42 pesos, Para llegar al 95% deberías vender $2,913,061.59 lo que te daría $712,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
-Hoy venís al 78.63% de tu avance. Si seguís así, tu premio sería de $255,560.05 pesos, Para llegar al 95% deberías vender $1,740,154.60 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
-Hoy venís al 89.76% de tu avance. Si seguís así, tu premio sería de $493,672.07 pesos, Para llegar al 95% deberías vender $468,867.27 lo que te daría $522,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
-Hoy venís al 73.70% de tu avance. Si seguís así, tu premio sería de $239,517.80 pesos, Para llegar al 95% deberías vender $2,152,927.72 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
-Hoy venís al 102.41% de tu avance. Si seguís así, tu premio sería de $732,204.03 pesos;JUE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
-Hoy venís al 71.33% de tu avance. Si seguís así, tu premio sería de $231,830.55 pesos, Para llegar al 95% deberías vender $2,583,443.35 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
-Hoy venís al 22.31% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,863,619.35 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
-Hoy venís al 84.59% de tu avance. Si seguís así, tu premio sería de $253,784.23 pesos, Para llegar al 95% deberías vender $999,051.13 lo que te daría $570,000.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;JAVIER REGINATTO;7
-Hoy venís al 50.46% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,200,903.73 lo que te daría $665,000.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
-Hoy venís al 75.98% de tu avance. Si seguís así, tu premio sería de $246,928.56 pesos, Para llegar al 95% deberías vender $2,025,288.86 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
-Hoy venís al 68.94% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,417,918.14 lo que te daría $665,000.00 de premio;JUE;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
-Hoy venís al 74.82% de tu avance. Si seguís así, tu premio sería de $243,174.45 pesos, Para llegar al 95% deberías vender $2,228,911.81 lo que te daría $617,500.00 de premio;JUE;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
-Hoy venís al 45.71% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,411,943.80 lo que te daría $617,500.00 de premio;JUE;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
-Hoy venís al 39.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,117,221.17 lo que te daría $617,500.00 de premio;JUE;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
-Hoy venís al 91.41% de tu avance. Si seguís así, tu premio sería de $685,560.52 pesos, Para llegar al 95% deberías vender $516,375.87 lo que te daría $712,500.00 de premio;JUE;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
-Hoy venís al 38.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,090,982.53 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
-Hoy venís al 28.98% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $7,149,739.81 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
-Hoy venís al 27.62% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,904,366.02 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
-Hoy venís al 85.03% de tu avance. Si seguís así, tu premio sería de $255,095.88 pesos, Para llegar al 95% deberías vender $920,841.20 lo que te daría $570,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
-Hoy venís al 139.83% de tu avance. Si seguís así, tu premio sería de $1,076,666.82 pesos;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
-Hoy venís al 40.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,615,079.49 lo que te daría $712,500.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
-Hoy venís al 71.45% de tu avance. Si seguís así, tu premio sería de $250,090.04 pesos, Para llegar al 95% deberías vender $3,263,336.24 lo que te daría $665,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
+Hoy venís al 87.85% de tu avance. Si seguís así, tu premio sería de $702,815.52 pesos, Para llegar al 95% deberías vender $1,602,355.66 lo que te daría $760,000.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
+Hoy venís al 75.92% de tu avance. Si seguís así, tu premio sería de $330,236.57 pesos, Para llegar al 95% deberías vender $5,801,399.95 lo que te daría $826,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
+Hoy venís al 87.51% de tu avance. Si seguís así, tu premio sería de $568,805.58 pesos, Para llegar al 95% deberías vender $957,632.74 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
+Hoy venís al 78.89% de tu avance. Si seguís así, tu premio sería de $256,389.44 pesos, Para llegar al 95% deberías vender $2,265,613.83 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,094,693.00 lo que te daría $570,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
+Hoy venís al 66.30% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,366,018.54 lo que te daría $570,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
+Hoy venís al 80.70% de tu avance. Si seguís así, tu premio sería de $282,457.34 pesos, Para llegar al 95% deberías vender $2,277,463.94 lo que te daría $665,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
+Hoy venís al 81.46% de tu avance. Si seguís así, tu premio sería de $244,377.90 pesos, Para llegar al 95% deberías vender $1,580,955.45 lo que te daría $570,000.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
+Hoy venís al 79.40% de tu avance. Si seguís así, tu premio sería de $297,749.16 pesos, Para llegar al 95% deberías vender $2,858,778.96 lo que te daría $712,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
+Hoy venís al 89.77% de tu avance. Si seguís así, tu premio sería de $583,488.19 pesos, Para llegar al 95% deberías vender $695,453.27 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
+Hoy venís al 86.99% de tu avance. Si seguís así, tu premio sería de $478,421.01 pesos, Para llegar al 95% deberías vender $896,144.77 lo que te daría $522,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
+Hoy venís al 89.28% de tu avance. Si seguís así, tu premio sería de $580,350.33 pesos, Para llegar al 95% deberías vender $722,031.68 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
+Hoy venís al 103.20% de tu avance. Si seguís así, tu premio sería de $737,870.27 pesos;JUE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
+Hoy venís al 81.70% de tu avance. Si seguís así, tu premio sería de $265,522.45 pesos, Para llegar al 95% deberías vender $1,814,819.31 lo que te daría $617,500.00 de premio;JUE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
+Sin Premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
+Hoy venís al 65.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,509,299.29 lo que te daría $570,000.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;MARCOS DIAZ;7
+Hoy venís al 57.04% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,606,863.47 lo que te daría $665,000.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
+Hoy venís al 59.68% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,700,681.44 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
+Hoy venís al 231.49% de tu avance. Si seguís así, tu premio sería de $1,782,455.23 pesos;JUE;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
+Hoy venís al 190.17% de tu avance. Si seguís así, tu premio sería de $1,359,696.91 pesos;JUE;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
+Hoy venís al 141.88% de tu avance. Si seguís así, tu premio sería de $1,014,432.12 pesos;JUE;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
+Hoy venís al 85.47% de tu avance. Si seguís así, tu premio sería de $277,771.49 pesos, Para llegar al 95% deberías vender $694,087.68 lo que te daría $617,500.00 de premio;JUE;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
+Hoy venís al 301.40% de tu avance. Si seguís así, tu premio sería de $2,486,551.85 pesos;JUE;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
+Hoy venís al 50.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,975,174.49 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
+Hoy venís al 58.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,892,431.92 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
+Hoy venís al 55.65% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,040,560.91 lo que te daría $617,500.00 de premio;JUE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
+Hoy venís al 86.13% de tu avance. Si seguís así, tu premio sería de $516,752.97 pesos, Para llegar al 95% deberías vender $1,024,776.36 lo que te daría $570,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
+Hoy venís al 111.07% de tu avance. Si seguís así, tu premio sería de $855,238.25 pesos;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,432,416.57 lo que te daría $712,500.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
+Hoy venís al 73.20% de tu avance. Si seguís así, tu premio sería de $256,212.27 pesos, Para llegar al 95% deberías vender $3,776,128.82 lo que te daría $665,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
 Sin Premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;LAUTARO LOPEZ;7
-Hoy venís al 82.11% de tu avance. Si seguís así, tu premio sería de $348,949.31 pesos, Para llegar al 95% deberías vender $2,348,386.53 lo que te daría $807,500.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
-Hoy venís al 87.81% de tu avance. Si seguís así, tu premio sería de $614,691.15 pesos, Para llegar al 95% deberías vender $1,027,089.52 lo que te daría $665,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
-Hoy venís al 41.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $9,065,751.82 lo que te daría $760,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
-Hoy venís al 41.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $9,065,751.82 lo que te daría $760,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
-Hoy venís al 75.13% de tu avance. Si seguís así, tu premio sería de $281,735.42 pesos, Para llegar al 95% deberías vender $2,913,061.59 lo que te daría $712,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
-Hoy venís al 78.63% de tu avance. Si seguís así, tu premio sería de $255,560.05 pesos, Para llegar al 95% deberías vender $1,740,154.60 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
-Hoy venís al 89.76% de tu avance. Si seguís así, tu premio sería de $493,672.07 pesos, Para llegar al 95% deberías vender $468,867.27 lo que te daría $522,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
-Hoy venís al 76.63% de tu avance. Si seguís así, tu premio sería de $333,353.00 pesos, Para llegar al 95% deberías vender $4,466,886.09 lo que te daría $826,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
-Hoy venís al 88.82% de tu avance. Si seguís así, tu premio sería de $577,310.98 pesos, Para llegar al 95% deberías vender $632,291.36 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
-Hoy venís al 102.41% de tu avance. Si seguís así, tu premio sería de $732,204.03 pesos;VIE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
-Hoy venís al 73.70% de tu avance. Si seguís así, tu premio sería de $239,517.80 pesos, Para llegar al 95% deberías vender $2,152,927.72 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
-Hoy venís al 74.99% de tu avance. Si seguís así, tu premio sería de $243,711.62 pesos, Para llegar al 95% deberías vender $2,251,340.83 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
-Hoy venís al 74.21% de tu avance. Si seguís así, tu premio sería de $222,616.68 pesos, Para llegar al 95% deberías vender $1,950,782.17 lo que te daría $570,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
-Hoy venís al 84.30% de tu avance. Si seguís así, tu premio sería de $295,062.63 pesos, Para llegar al 95% deberías vender $1,363,033.39 lo que te daría $665,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
-Hoy venís al 71.33% de tu avance. Si seguís así, tu premio sería de $231,830.55 pesos, Para llegar al 95% deberías vender $2,583,443.35 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
-Hoy venís al 77.16% de tu avance. Si seguís así, tu premio sería de $231,472.90 pesos, Para llegar al 95% deberías vender $1,666,559.92 lo que te daría $570,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
-Hoy venís al 45.71% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,411,943.80 lo que te daría $617,500.00 de premio;VIE;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
-Hoy venís al 91.41% de tu avance. Si seguís así, tu premio sería de $685,560.52 pesos, Para llegar al 95% deberías vender $516,375.87 lo que te daría $712,500.00 de premio;VIE;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
-Hoy venís al 74.82% de tu avance. Si seguís así, tu premio sería de $243,174.45 pesos, Para llegar al 95% deberías vender $2,228,911.81 lo que te daría $617,500.00 de premio;VIE;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
-Hoy venís al 39.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,117,221.17 lo que te daría $617,500.00 de premio;VIE;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
-Hoy venís al 68.94% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,417,918.14 lo que te daría $665,000.00 de premio;VIE;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
-Hoy venís al 75.98% de tu avance. Si seguís así, tu premio sería de $246,928.56 pesos, Para llegar al 95% deberías vender $2,025,288.86 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
-Hoy venís al 82.87% de tu avance. Si seguís así, tu premio sería de $331,463.77 pesos, Para llegar al 95% deberías vender $2,176,039.20 lo que te daría $760,000.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
-Hoy venís al 84.59% de tu avance. Si seguís así, tu premio sería de $253,784.23 pesos, Para llegar al 95% deberías vender $999,051.13 lo que te daría $570,000.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;JAVIER REGINATTO;7
-Hoy venís al 22.31% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,863,619.35 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
-Hoy venís al 50.46% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,200,903.73 lo que te daría $665,000.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
-Hoy venís al 85.03% de tu avance. Si seguís así, tu premio sería de $255,095.88 pesos, Para llegar al 95% deberías vender $920,841.20 lo que te daría $570,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
-Hoy venís al 139.83% de tu avance. Si seguís así, tu premio sería de $1,076,666.82 pesos;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
-Hoy venís al 40.15% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $8,615,079.49 lo que te daría $712,500.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
-Hoy venís al 82.11% de tu avance. Si seguís así, tu premio sería de $348,949.31 pesos, Para llegar al 95% deberías vender $2,348,386.53 lo que te daría $807,500.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
-Hoy venís al 71.45% de tu avance. Si seguís así, tu premio sería de $250,090.04 pesos, Para llegar al 95% deberías vender $3,263,336.24 lo que te daría $665,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
-Hoy venís al 87.81% de tu avance. Si seguís así, tu premio sería de $614,691.15 pesos, Para llegar al 95% deberías vender $1,027,089.52 lo que te daría $665,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
+Hoy venís al 65.25% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,771,769.01 lo que te daría $807,500.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
+Hoy venís al 88.89% de tu avance. Si seguís así, tu premio sería de $622,255.00 pesos, Para llegar al 95% deberías vender $1,090,835.48 lo que te daría $665,000.00 de premio;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
+Hoy venís al 100.50% de tu avance. Si seguís así, tu premio sería de $884,403.63 pesos;JUE;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
+Hoy venís al 100.50% de tu avance. Si seguís así, tu premio sería de $884,403.63 pesos;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;NICOLAS PAREDES;7
+Hoy venís al 79.40% de tu avance. Si seguís así, tu premio sería de $297,749.16 pesos, Para llegar al 95% deberías vender $2,858,778.96 lo que te daría $712,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
+Hoy venís al 89.77% de tu avance. Si seguís así, tu premio sería de $583,488.19 pesos, Para llegar al 95% deberías vender $695,453.27 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
+Hoy venís al 86.99% de tu avance. Si seguís así, tu premio sería de $478,421.01 pesos, Para llegar al 95% deberías vender $896,144.77 lo que te daría $522,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
+Hoy venís al 75.92% de tu avance. Si seguís así, tu premio sería de $330,236.57 pesos, Para llegar al 95% deberías vender $5,801,399.95 lo que te daría $826,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
+Hoy venís al 87.51% de tu avance. Si seguís así, tu premio sería de $568,805.58 pesos, Para llegar al 95% deberías vender $957,632.74 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
+Hoy venís al 103.20% de tu avance. Si seguís así, tu premio sería de $737,870.27 pesos;VIE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
+Hoy venís al 89.28% de tu avance. Si seguís así, tu premio sería de $580,350.33 pesos, Para llegar al 95% deberías vender $722,031.68 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
+Hoy venís al 78.89% de tu avance. Si seguís así, tu premio sería de $256,389.44 pesos, Para llegar al 95% deberías vender $2,265,613.83 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
+Hoy venís al 66.30% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,366,018.54 lo que te daría $570,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
+Hoy venís al 80.70% de tu avance. Si seguís así, tu premio sería de $282,457.34 pesos, Para llegar al 95% deberías vender $2,277,463.94 lo que te daría $665,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
+Hoy venís al 81.70% de tu avance. Si seguís así, tu premio sería de $265,522.45 pesos, Para llegar al 95% deberías vender $1,814,819.31 lo que te daría $617,500.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
+Hoy venís al 81.46% de tu avance. Si seguís así, tu premio sería de $244,377.90 pesos, Para llegar al 95% deberías vender $1,580,955.45 lo que te daría $570,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
+Hoy venís al 141.88% de tu avance. Si seguís así, tu premio sería de $1,014,432.12 pesos;VIE;CRISTIAN;$ 0;6;.;BENJAMIN HOYOS;7
+Hoy venís al 301.40% de tu avance. Si seguís así, tu premio sería de $2,486,551.85 pesos;VIE;CRISTIAN;$ 0;6;.;MAURO LUDUEÑA;7
+Hoy venís al 190.17% de tu avance. Si seguís así, tu premio sería de $1,359,696.91 pesos;VIE;CRISTIAN;$ 0;6;.;GABRIEL CALDERON;7
+Hoy venís al 85.47% de tu avance. Si seguís así, tu premio sería de $277,771.49 pesos, Para llegar al 95% deberías vender $694,087.68 lo que te daría $617,500.00 de premio;VIE;CRISTIAN;$ 0;6;.;JAVIER DIAZ;7
+Hoy venís al 231.49% de tu avance. Si seguís así, tu premio sería de $1,782,455.23 pesos;VIE;CRISTIAN;$ 0;6;.;NICOLÁS FAVALLI;7
+Hoy venís al 59.68% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,700,681.44 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;MICHAEL MONJES;7
+Hoy venís al 87.85% de tu avance. Si seguís así, tu premio sería de $702,815.52 pesos, Para llegar al 95% deberías vender $1,602,355.66 lo que te daría $760,000.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;EZEQUIEL MANZANO;7
+Hoy venís al 65.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,509,299.29 lo que te daría $570,000.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;MARCOS DIAZ;7
+Sin Premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;PABLO CORZO;7
+Hoy venís al 57.04% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,606,863.47 lo que te daría $665,000.00 de premio;VIE;LUIS MOLINA ESTE;$ 0;6;.;FEDERICO POSSE;7
+Hoy venís al 86.13% de tu avance. Si seguís así, tu premio sería de $516,752.97 pesos, Para llegar al 95% deberías vender $1,024,776.36 lo que te daría $570,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;STAFF PEÑA FLOR;7
+Hoy venís al 111.07% de tu avance. Si seguís así, tu premio sería de $855,238.25 pesos;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;EUGENIA BENGOLEA;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,432,416.57 lo que te daría $712,500.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;LUCAS RIVERO;7
+Hoy venís al 65.25% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,771,769.01 lo que te daría $807,500.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;BRUNO;7
+Hoy venís al 73.20% de tu avance. Si seguís así, tu premio sería de $256,212.27 pesos, Para llegar al 95% deberías vender $3,776,128.82 lo que te daría $665,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;MATIAS PEDRAZA;7
+Hoy venís al 88.89% de tu avance. Si seguís así, tu premio sería de $622,255.00 pesos, Para llegar al 95% deberías vender $1,090,835.48 lo que te daría $665,000.00 de premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;SEBASTIAN KRENZ;7
 Sin Premio;VIE;ALEJANDRO BUSNARDO;$ 0;6;.;LAUTARO LOPEZ;7
-Hoy venís al 27.62% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,904,366.02 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
-Hoy venís al 38.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,090,982.53 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
-Hoy venís al 28.98% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $7,149,739.81 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
-Hoy venís al 63.19% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,179,948.95 lo que te daría $570,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
-Hoy venís al 75.13% de tu avance. Si seguís así, tu premio sería de $281,735.42 pesos, Para llegar al 95% deberías vender $2,913,061.59 lo que te daría $712,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
-Hoy venís al 89.76% de tu avance. Si seguís así, tu premio sería de $493,672.07 pesos, Para llegar al 95% deberías vender $468,867.27 lo que te daría $522,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
-Hoy venís al 78.63% de tu avance. Si seguís así, tu premio sería de $255,560.05 pesos, Para llegar al 95% deberías vender $1,740,154.60 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
-Hoy venís al 84.30% de tu avance. Si seguís así, tu premio sería de $295,062.63 pesos, Para llegar al 95% deberías vender $1,363,033.39 lo que te daría $665,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
-Hoy venís al 74.99% de tu avance. Si seguís así, tu premio sería de $243,711.62 pesos, Para llegar al 95% deberías vender $2,251,340.83 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
-Hoy venís al 73.70% de tu avance. Si seguís así, tu premio sería de $239,517.80 pesos, Para llegar al 95% deberías vender $2,152,927.72 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
-Hoy venís al 63.19% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,179,948.95 lo que te daría $570,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
-Hoy venís al 102.41% de tu avance. Si seguís así, tu premio sería de $732,204.03 pesos;TARDE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
-Hoy venís al 76.63% de tu avance. Si seguís así, tu premio sería de $333,353.00 pesos, Para llegar al 95% deberías vender $4,466,886.09 lo que te daría $826,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
-Hoy venís al 88.82% de tu avance. Si seguís así, tu premio sería de $577,310.98 pesos, Para llegar al 95% deberías vender $632,291.36 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
-Hoy venís al 74.21% de tu avance. Si seguís así, tu premio sería de $222,616.68 pesos, Para llegar al 95% deberías vender $1,950,782.17 lo que te daría $570,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
-Hoy venís al 71.33% de tu avance. Si seguís así, tu premio sería de $231,830.55 pesos, Para llegar al 95% deberías vender $2,583,443.35 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
-Hoy venís al 77.16% de tu avance. Si seguís así, tu premio sería de $231,472.90 pesos, Para llegar al 95% deberías vender $1,666,559.92 lo que te daría $570,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
-Hoy venís al 38.76% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,090,982.53 lo que te daría $617,500.00 de premio;TARDE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
-Hoy venís al 28.98% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $7,149,739.81 lo que te daría $617,500.00 de premio;TARDE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
-Hoy venís al 27.62% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $6,904,366.02 lo que te daría $617,500.00 de premio;TARDE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
+Hoy venís al 55.65% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,040,560.91 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
+Hoy venís al 50.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,975,174.49 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
+Hoy venís al 58.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,892,431.92 lo que te daría $617,500.00 de premio;VIE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,094,693.00 lo que te daría $570,000.00 de premio;VIE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
+Hoy venís al 79.40% de tu avance. Si seguís así, tu premio sería de $297,749.16 pesos, Para llegar al 95% deberías vender $2,858,778.96 lo que te daría $712,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;FERNANDO MATEOS;7
+Hoy venís al 86.99% de tu avance. Si seguís así, tu premio sería de $478,421.01 pesos, Para llegar al 95% deberías vender $896,144.77 lo que te daría $522,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;LUCIANO LIGORRIA;7
+Hoy venís al 89.77% de tu avance. Si seguís así, tu premio sería de $583,488.19 pesos, Para llegar al 95% deberías vender $695,453.27 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;VELLA EZEQUIEL;7
+Hoy venís al 80.70% de tu avance. Si seguís así, tu premio sería de $282,457.34 pesos, Para llegar al 95% deberías vender $2,277,463.94 lo que te daría $665,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;MATIAS QUARTUCCI;7
+Hoy venís al 78.89% de tu avance. Si seguís así, tu premio sería de $256,389.44 pesos, Para llegar al 95% deberías vender $2,265,613.83 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;JULIETA ORTEGA;7
+Hoy venís al 89.28% de tu avance. Si seguís así, tu premio sería de $580,350.33 pesos, Para llegar al 95% deberías vender $722,031.68 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;NICOLAS GAGLIARDINO;7
+Hoy venís al 62.23% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,094,693.00 lo que te daría $570,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;CRISTIAN GOMEZ;7
+Hoy venís al 103.20% de tu avance. Si seguís así, tu premio sería de $737,870.27 pesos;TARDE;FELIX PORTAL;$ 0;6;.;MARTIN HOYOS;7
+Hoy venís al 75.92% de tu avance. Si seguís así, tu premio sería de $330,236.57 pesos, Para llegar al 95% deberías vender $5,801,399.95 lo que te daría $826,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;BARBARA BERARDO;7
+Hoy venís al 87.51% de tu avance. Si seguís así, tu premio sería de $568,805.58 pesos, Para llegar al 95% deberías vender $957,632.74 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;URIEL BARRIENTOS;7
+Hoy venís al 66.30% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $3,366,018.54 lo que te daría $570,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;NATALIA BUSTAMANTE;7
+Hoy venís al 81.70% de tu avance. Si seguís así, tu premio sería de $265,522.45 pesos, Para llegar al 95% deberías vender $1,814,819.31 lo que te daría $617,500.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;ROMINA GUIDONE;7
+Hoy venís al 81.46% de tu avance. Si seguís así, tu premio sería de $244,377.90 pesos, Para llegar al 95% deberías vender $1,580,955.45 lo que te daría $570,000.00 de premio;TARDE;FELIX PORTAL;$ 0;6;.;WELLINYER WEFFER;7
+Hoy venís al 50.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,975,174.49 lo que te daría $617,500.00 de premio;TARDE;LUIS MOLINA OESTE;$ 0;6;.;HUGO GONZALEZ;7
+Hoy venís al 58.86% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $4,892,431.92 lo que te daría $617,500.00 de premio;TARDE;LUIS MOLINA OESTE;$ 0;6;.;JESUS GRIMALDI;7
+Hoy venís al 55.65% de tu avance. Si seguís así, tu premio sería de $0.00 pesos, Para llegar al 95% deberías vender $5,040,560.91 lo que te daría $617,500.00 de premio;TARDE;LUIS MOLINA OESTE;$ 0;6;.;ALDANA SABADIAS;7
