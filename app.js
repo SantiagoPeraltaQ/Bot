@@ -181,7 +181,7 @@ const constMenu = addKeyword(EVENTS.ACTION)
           
 await flowDynamic(`Cliente 👉🏻  ${linea.valor1}`);
 
-          await flowDynamic(`Es NO COMPRADOR de 📋👇🏻:
+          await flowDynamic(`Tu SITUACIÓN es 📋👇🏻:
 
 - ${linea.valor2}`);
 
