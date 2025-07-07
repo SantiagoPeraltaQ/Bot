@@ -181,9 +181,7 @@ const constMenu = addKeyword(EVENTS.ACTION)
           
 await flowDynamic(`Cliente 👉🏻  ${linea.valor1}`);
 
-          await flowDynamic(`Tu SITUACIÓN es 📋👇🏻:
-
-- ${linea.valor2}`);
+          await flowDynamic(`- ${linea.valor2}`);
 
 await flowDynamic(`Ofrece estos descuentos exclusivos 📋👇🏻:
 
