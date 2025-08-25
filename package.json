@@ -15,7 +15,7 @@
         "@bot-whatsapp/database": "latest",
         "@bot-whatsapp/portal": "latest",
         "@bot-whatsapp/provider": "latest",
-        "@whiskeysockets/baileys": "6.7.19",
+        "@whiskeysockets/baileys": "latest",
         "cache-manager": "5.2.4",
         "readfile": "^1.0.1",
         "wa-sticker-formatter": "4.4.4",
