@@ -2,7 +2,7 @@ const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
-const JsonFileAdapter = require('@bot-whatsapp/database/json')   // mejor que MockAdapter
+const JsonFileAdapter = require('@bot-whatsapp/database/json')
 const path = require("path")
 const fs = require("fs")
 
@@ -24,6 +24,15 @@ const csvContent = fs.readFileSync(csvPath, 'utf8');
 
 const csvPath2 = path.join(__dirname, "mensajes", "CSV3.csv");
 const csvContent2 = fs.readFileSync(csvPath2, 'utf8');
+
+// ========================= LOGGER =========================
+const logIncoming = (ctx) => {
+    console.log(">>> NUEVO MENSAJE <<<");
+    console.log("REMOTE JID:", ctx?.key?.remoteJid);
+    console.log("FROM:", ctx.from);
+    console.log("BODY:", ctx.body);
+    console.log("CTX COMPLETO:", JSON.stringify(ctx, null, 2));
+};
 
 // ========================= FUNCIONES CSV =========================
 const cargarDatosCSV = () => {
@@ -74,8 +83,8 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
     .addAnswer('¿Qué supervisor deseas buscar?\n\n' + obtenerOpcionesEnumeradas('supervisor', data), 
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
-            const jid = ctx.key.remoteJid || ctx.from;
-            console.log("Mensaje recibido de:", jid, "->", ctx.body);
+            logIncoming(ctx);
+            const jid = ctx.key?.remoteJid || ctx.from;
 
             const seleccionSupervisor = parseInt(ctx.body.trim(), 10);
             const supervisores = [...new Set(data.map(item => item.supervisor))];
@@ -94,7 +103,9 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
     .addAnswer('-----------------------------------------', 
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
-            const jid = ctx.key.remoteJid || ctx.from;
+            logIncoming(ctx);
+            const jid = ctx.key?.remoteJid || ctx.from;
+
             const seleccionVendedor = parseInt(ctx.body.trim(), 10);
             const vendedoresFiltrados = state.getMyState().vendedoresFiltrados;
             const vendedor = obtenerValorPorOpcion([...new Set(vendedoresFiltrados.map(item => item.vendedor))], seleccionVendedor);
@@ -112,7 +123,9 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
     .addAnswer('------------------', 
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
-            const jid = ctx.key.remoteJid || ctx.from;
+            logIncoming(ctx);
+            const jid = ctx.key?.remoteJid || ctx.from;
+
             const seleccionDia = parseInt(ctx.body.trim(), 10);
             const diasFiltrados = state.getMyState().diasFiltrados;
             const dia = obtenerValorPorOpcion([...new Set(diasFiltrados.map(item => item.dia))], seleccionDia);
@@ -156,8 +169,8 @@ const constMenu = addKeyword(EVENTS.ACTION)
     Cliente,
     { capture: true },
     async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
-      const jid = ctx.key.remoteJid || ctx.from;
-      console.log("Mensaje recibido de:", jid, "->", ctx.body);
+      logIncoming(ctx);
+      const jid = ctx.key?.remoteJid || ctx.from;
 
       const numero = ctx.body;
       if (isNaN(numero)) {
@@ -182,7 +195,8 @@ const constPregunta = addKeyword(EVENTS.ACTION)
       "¿Desea buscar otro número? 1 ✅ 2 ❎",
       { capture: true },
       async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
-        const jid = ctx.key.remoteJid || ctx.from;
+        logIncoming(ctx);
+        const jid = ctx.key?.remoteJid || ctx.from;
         if (ctx.body === "1") {
           return gotoFlow(constMenu);
         } else if (ctx.body === "2") {
@@ -199,6 +213,7 @@ const constAACC = addKeyword(EVENTS.ACTION)
       "Seleccione una opción:\n\n1. Ver AACC VaFood\n\n2. Ver AACC RN Este\n\n3. Ver AACC RN Oeste\n\n4. Ver AACC Regidor\n\n5. Ver AACC Interior",
       { capture: true },
       async (ctx, { fallBack, gotoFlow }) => {
+        logIncoming(ctx);
         if (!["1", "2", "3", "4", "5"].includes(ctx.body)) {
           return fallBack("Respuesta no válida, por favor seleccione una de las opciones.");
         }
@@ -225,7 +240,8 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
  menu,
  { capture: true },
  async (ctx, { gotoFlow, fallBack, flowDynamic }) => {
-   const jid = ctx.key.remoteJid || ctx.from;
+   logIncoming(ctx);
+   const jid = ctx.key?.remoteJid || ctx.from;
    if (!["1", "2", "88", "0"].includes(ctx.body)) {
      return fallBack("Respuesta no válida, por favor selecciona una de las opciones.");
    }
@@ -240,7 +256,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
 
 // ========================= MAIN =========================
 const main = async () => {
-    const adapterDB = new JsonFileAdapter() // persistente y seguro
+    const adapterDB = new JsonFileAdapter()
     const adapterFlow = createFlow([
       menuFlow, constMenu, constAACC, constConsulta, constPregunta,
       AACCVaFood, AACCRNE, AACCRNO, AACCRegidor, AACCInterior, flujoConsulta
