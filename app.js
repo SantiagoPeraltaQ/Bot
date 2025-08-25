@@ -6,6 +6,24 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
 const path = require("path")
 const fs = require("fs")
 
+// ========================= NORMALIZADOR DE JID =========================
+const getJid = (ctx) => {
+    let jid = ctx?.key?.remoteJid || ctx?.from || "";
+    if (jid.endsWith("@c.us")) {
+        jid = jid.replace("@c.us", "@s.whatsapp.net");
+    }
+    return jid;
+};
+
+// ========================= LOGGER =========================
+const logIncoming = (ctx) => {
+    console.log(">>> NUEVO MENSAJE <<<");
+    console.log("REMOTE JID:", ctx?.key?.remoteJid);
+    console.log("FROM:", ctx.from);
+    console.log("BODY:", ctx.body);
+    console.log("CTX COMPLETO:", JSON.stringify(ctx, null, 2));
+};
+
 // ========================= MENSAJES =========================
 const menuPath = path.join(__dirname, "mensajes", "Menu.txt")
 const menu = fs.readFileSync(menuPath, "utf8")
@@ -25,20 +43,10 @@ const csvContent = fs.readFileSync(csvPath, 'utf8');
 const csvPath2 = path.join(__dirname, "mensajes", "CSV3.csv");
 const csvContent2 = fs.readFileSync(csvPath2, 'utf8');
 
-// ========================= LOGGER =========================
-const logIncoming = (ctx) => {
-    console.log(">>> NUEVO MENSAJE <<<");
-    console.log("REMOTE JID:", ctx?.key?.remoteJid);
-    console.log("FROM:", ctx.from);
-    console.log("BODY:", ctx.body);
-    console.log("CTX COMPLETO:", JSON.stringify(ctx, null, 2));
-};
-
 // ========================= FUNCIONES CSV =========================
 const cargarDatosCSV = () => {
     const lineas = csvContent2.split('\n');
     const data = [];
-
     lineas.forEach((linea, index) => {
         const [codigo, dia, supervisor, , , razonSocial, vendedor] = linea.split(';');
         if (index > 0 && codigo && supervisor && vendedor && dia && razonSocial) {
@@ -51,32 +59,29 @@ const cargarDatosCSV = () => {
             });
         }
     });
-
     return data;
 };
-
 const data = cargarDatosCSV();
 
 const obtenerOpcionesEnumeradas = (campo, listaFiltrada) => {
     const opcionesUnicas = [...new Set(listaFiltrada.map(item => item[campo]))];
     return opcionesUnicas.map((opcion, index) => `${index + 1} - ${opcion}`).join('\n');
 };
-
 const obtenerValorPorOpcion = (listaFiltrada, numero) => {
     return listaFiltrada[numero - 1];
 };
-
 const filtrarPorCriterios = (supervisor, vendedor, dia) => {
     return data
-        .filter(
-            item =>
-                item.supervisor === supervisor &&
-                item.vendedor === vendedor &&
-                item.dia === dia
-        )
+        .filter(item => item.supervisor === supervisor && item.vendedor === vendedor && item.dia === dia)
         .map(item => `${item.codigo} - ${item.razonSocial}`)
         .join('\n');
 };
+
+// ========================= DEBUG FLOW =========================
+const debugFlow = addKeyword(EVENTS.ACTION).addAction(async (ctx) => {
+    console.log(">>> DEBUG MENSAJE <<<");
+    console.log(JSON.stringify(ctx, null, 2));
+});
 
 // ========================= FLUJOS =========================
 const flujoConsulta = addKeyword(EVENTS.ACTION)
@@ -84,7 +89,7 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
             logIncoming(ctx);
-            const jid = ctx.key?.remoteJid || ctx.from;
+            const jid = getJid(ctx);
 
             const seleccionSupervisor = parseInt(ctx.body.trim(), 10);
             const supervisores = [...new Set(data.map(item => item.supervisor))];
@@ -98,56 +103,6 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
             await state.update({ supervisor, vendedoresFiltrados });
 
             return flowDynamic('¿Cuál de sus vendedores?\n\n' + obtenerOpcionesEnumeradas('vendedor', vendedoresFiltrados), { capture: true, from: jid });
-        }
-    )
-    .addAnswer('-----------------------------------------', 
-        { capture: true },
-        async (ctx, { flowDynamic, state }) => {
-            logIncoming(ctx);
-            const jid = ctx.key?.remoteJid || ctx.from;
-
-            const seleccionVendedor = parseInt(ctx.body.trim(), 10);
-            const vendedoresFiltrados = state.getMyState().vendedoresFiltrados;
-            const vendedor = obtenerValorPorOpcion([...new Set(vendedoresFiltrados.map(item => item.vendedor))], seleccionVendedor);
-            
-            if (!vendedor) {
-                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: jid });
-            }
-
-            const diasFiltrados = vendedoresFiltrados.filter(item => item.vendedor === vendedor);
-            await state.update({ vendedor, diasFiltrados });
-
-            return flowDynamic('¿Qué día?\n\n' + obtenerOpcionesEnumeradas('dia', diasFiltrados), { capture: true, from: jid });
-        }
-    )
-    .addAnswer('------------------', 
-        { capture: true },
-        async (ctx, { flowDynamic, state }) => {
-            logIncoming(ctx);
-            const jid = ctx.key?.remoteJid || ctx.from;
-
-            const seleccionDia = parseInt(ctx.body.trim(), 10);
-            const diasFiltrados = state.getMyState().diasFiltrados;
-            const dia = obtenerValorPorOpcion([...new Set(diasFiltrados.map(item => item.dia))], seleccionDia);
-            
-            if (!dia) {
-                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: jid });
-            }
-
-            const { supervisor, vendedor } = state.getMyState();
-            const resultados = filtrarPorCriterios(supervisor, vendedor, dia).split('\n');
-
-            if (resultados.length === 0) {
-                return flowDynamic('No se encontraron resultados.', { from: jid });
-            }
-
-            const primerosCinco = resultados.slice(0, 5).join('\n');
-            await flowDynamic(`Tienes que visitar estos clientes SÍ o SÍ:\n\n${primerosCinco}`, { from: jid });
-
-            if (resultados.length > 5) {
-                const sextoResultado = resultados[5];
-                await flowDynamic(`Tené en cuenta que:\n\n${sextoResultado}`, { from: jid });
-            }
         }
     );
 
@@ -170,7 +125,7 @@ const constMenu = addKeyword(EVENTS.ACTION)
     { capture: true },
     async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
       logIncoming(ctx);
-      const jid = ctx.key?.remoteJid || ctx.from;
+      const jid = getJid(ctx);
 
       const numero = ctx.body;
       if (isNaN(numero)) {
@@ -196,7 +151,7 @@ const constPregunta = addKeyword(EVENTS.ACTION)
       { capture: true },
       async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
         logIncoming(ctx);
-        const jid = ctx.key?.remoteJid || ctx.from;
+        const jid = getJid(ctx);
         if (ctx.body === "1") {
           return gotoFlow(constMenu);
         } else if (ctx.body === "2") {
@@ -241,7 +196,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
  { capture: true },
  async (ctx, { gotoFlow, fallBack, flowDynamic }) => {
    logIncoming(ctx);
-   const jid = ctx.key?.remoteJid || ctx.from;
+   const jid = getJid(ctx);
    if (!["1", "2", "88", "0"].includes(ctx.body)) {
      return fallBack("Respuesta no válida, por favor selecciona una de las opciones.");
    }
@@ -258,6 +213,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
 const main = async () => {
     const adapterDB = new JsonFileAdapter()
     const adapterFlow = createFlow([
+      debugFlow, // importante, al inicio para ver ctx
       menuFlow, constMenu, constAACC, constConsulta, constPregunta,
       AACCVaFood, AACCRNE, AACCRNO, AACCRegidor, AACCInterior, flujoConsulta
     ])
