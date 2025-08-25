@@ -1,3 +1,12 @@
+# Dependencias
 node_modules/
+
+# Sesiones de Baileys
 bot_sessions/
-logs/
+baileys_store.json
+creds.json
+
+# Logs y archivos temporales
+*.log
+output.csv
+Output.js
