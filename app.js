@@ -2,7 +2,7 @@ const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
-const MockAdapter = require('@bot-whatsapp/database/mock')
+const JsonFileAdapter = require('@bot-whatsapp/database/json')   // mejor que MockAdapter
 const path = require("path")
 const fs = require("fs")
 
@@ -74,61 +74,66 @@ const flujoConsulta = addKeyword(EVENTS.ACTION)
     .addAnswer('¿Qué supervisor deseas buscar?\n\n' + obtenerOpcionesEnumeradas('supervisor', data), 
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
+            const jid = ctx.key.remoteJid || ctx.from;
+            console.log("Mensaje recibido de:", jid, "->", ctx.body);
+
             const seleccionSupervisor = parseInt(ctx.body.trim(), 10);
             const supervisores = [...new Set(data.map(item => item.supervisor))];
             const supervisor = supervisores[seleccionSupervisor - 1];
             
             if (!supervisor) {
-                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: ctx.from });
+                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: jid });
             }
 
             const vendedoresFiltrados = data.filter(item => item.supervisor === supervisor);
             await state.update({ supervisor, vendedoresFiltrados });
 
-            return flowDynamic('¿Cuál de sus vendedores?\n\n' + obtenerOpcionesEnumeradas('vendedor', vendedoresFiltrados), { capture: true, from: ctx.from });
+            return flowDynamic('¿Cuál de sus vendedores?\n\n' + obtenerOpcionesEnumeradas('vendedor', vendedoresFiltrados), { capture: true, from: jid });
         }
     )
     .addAnswer('-----------------------------------------', 
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
+            const jid = ctx.key.remoteJid || ctx.from;
             const seleccionVendedor = parseInt(ctx.body.trim(), 10);
             const vendedoresFiltrados = state.getMyState().vendedoresFiltrados;
             const vendedor = obtenerValorPorOpcion([...new Set(vendedoresFiltrados.map(item => item.vendedor))], seleccionVendedor);
             
             if (!vendedor) {
-                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: ctx.from });
+                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: jid });
             }
 
             const diasFiltrados = vendedoresFiltrados.filter(item => item.vendedor === vendedor);
             await state.update({ vendedor, diasFiltrados });
 
-            return flowDynamic('¿Qué día?\n\n' + obtenerOpcionesEnumeradas('dia', diasFiltrados), { capture: true, from: ctx.from });
+            return flowDynamic('¿Qué día?\n\n' + obtenerOpcionesEnumeradas('dia', diasFiltrados), { capture: true, from: jid });
         }
     )
     .addAnswer('------------------', 
         { capture: true },
         async (ctx, { flowDynamic, state }) => {
+            const jid = ctx.key.remoteJid || ctx.from;
             const seleccionDia = parseInt(ctx.body.trim(), 10);
             const diasFiltrados = state.getMyState().diasFiltrados;
             const dia = obtenerValorPorOpcion([...new Set(diasFiltrados.map(item => item.dia))], seleccionDia);
             
             if (!dia) {
-                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: ctx.from });
+                return flowDynamic('Opción no válida. Por favor selecciona una opción correcta.', { from: jid });
             }
 
             const { supervisor, vendedor } = state.getMyState();
             const resultados = filtrarPorCriterios(supervisor, vendedor, dia).split('\n');
 
             if (resultados.length === 0) {
-                return flowDynamic('No se encontraron resultados.', { from: ctx.from });
+                return flowDynamic('No se encontraron resultados.', { from: jid });
             }
 
             const primerosCinco = resultados.slice(0, 5).join('\n');
-            await flowDynamic(`Tienes que visitar estos clientes SÍ o SÍ:\n\n${primerosCinco}`, { from: ctx.from });
+            await flowDynamic(`Tienes que visitar estos clientes SÍ o SÍ:\n\n${primerosCinco}`, { from: jid });
 
             if (resultados.length > 5) {
                 const sextoResultado = resultados[5];
-                await flowDynamic(`Tené en cuenta que:\n\n${sextoResultado}`, { from: ctx.from });
+                await flowDynamic(`Tené en cuenta que:\n\n${sextoResultado}`, { from: jid });
             }
         }
     );
@@ -151,7 +156,9 @@ const constMenu = addKeyword(EVENTS.ACTION)
     Cliente,
     { capture: true },
     async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
-      console.log("Mensaje recibido de:", ctx.from, "->", ctx.body);
+      const jid = ctx.key.remoteJid || ctx.from;
+      console.log("Mensaje recibido de:", jid, "->", ctx.body);
+
       const numero = ctx.body;
       if (isNaN(numero)) {
         return fallBack('Respuesta no válida, por favor escriba un número');
@@ -161,9 +168,9 @@ const constMenu = addKeyword(EVENTS.ACTION)
         return fallBack('Opción no válida.');
       } else {
         for (const linea of lineas) {
-          await flowDynamic(`Cliente 👉🏻  ${linea.valor1}`, { from: ctx.from });
-          await flowDynamic(`- ${linea.valor2}`, { from: ctx.from });
-          await flowDynamic(`Ofrece estos descuentos exclusivos 📋👇🏻:\n\n- ${linea.valor3}`, { from: ctx.from });
+          await flowDynamic(`Cliente 👉🏻  ${linea.valor1}`, { from: jid });
+          await flowDynamic(`- ${linea.valor2}`, { from: jid });
+          await flowDynamic(`Ofrece estos descuentos exclusivos 📋👇🏻:\n\n- ${linea.valor3}`, { from: jid });
         }
         return gotoFlow(constPregunta);
       }
@@ -175,10 +182,11 @@ const constPregunta = addKeyword(EVENTS.ACTION)
       "¿Desea buscar otro número? 1 ✅ 2 ❎",
       { capture: true },
       async (ctx, { fallBack, flowDynamic, gotoFlow }) => {
+        const jid = ctx.key.remoteJid || ctx.from;
         if (ctx.body === "1") {
           return gotoFlow(constMenu);
         } else if (ctx.body === "2") {
-          return await flowDynamic("Saliendo. Muchas gracias por utilizar el BOT 😁", { from: ctx.from });
+          return await flowDynamic("Saliendo. Muchas gracias por utilizar el BOT 😁", { from: jid });
         } else {
           return fallBack("Respuesta no válida, por favor seleccione una de las opciones.");
         }
@@ -217,6 +225,7 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
  menu,
  { capture: true },
  async (ctx, { gotoFlow, fallBack, flowDynamic }) => {
+   const jid = ctx.key.remoteJid || ctx.from;
    if (!["1", "2", "88", "0"].includes(ctx.body)) {
      return fallBack("Respuesta no válida, por favor selecciona una de las opciones.");
    }
@@ -224,14 +233,14 @@ const menuFlow = addKeyword(EVENTS.WELCOME).addAnswer(
      case "1": return gotoFlow(constMenu);
      case "2": return gotoFlow(flujoConsulta);
      case "88": return gotoFlow(constConsulta);
-     case "0":  return await flowDynamic("Saliendo... Puedes volver a acceder escribiendo 'Menu'", { from: ctx.from });
+     case "0":  return await flowDynamic("Saliendo... Puedes volver a acceder escribiendo 'Menu'", { from: jid });
    }
  }
 );
 
 // ========================= MAIN =========================
 const main = async () => {
-    const adapterDB = new MockAdapter()
+    const adapterDB = new JsonFileAdapter() // persistente y seguro
     const adapterFlow = createFlow([
       menuFlow, constMenu, constAACC, constConsulta, constPregunta,
       AACCVaFood, AACCRNE, AACCRNO, AACCRegidor, AACCInterior, flujoConsulta
