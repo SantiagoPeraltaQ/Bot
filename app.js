@@ -13,28 +13,42 @@ const normalizeJid = (jid) => {
 };
 
 const getRealJid = (ctx) => {
-  const rjid = ctx?.key?.remoteJid;
-  const pjid = ctx?.key?.participant;
-  const from = ctx?.from;
-  const senderPn      = ctx?.key?.senderPn || ctx?.key?.senderPhoneNumber;
-  const participantPn = ctx?.key?.participantPn;
+  try {
+    const rjid = ctx?.key?.remoteJid;
+    const pjid = ctx?.key?.participant;
+    const from = ctx?.from;
+    const senderPn      = ctx?.key?.senderPn || ctx?.key?.senderPhoneNumber;
+    const participantPn = ctx?.key?.participantPn;
 
-  // Grupos
-  if (rjid && rjid.endsWith('@g.us')) return rjid;
+    // Caso grupo
+    if (rjid && rjid.endsWith('@g.us')) return rjid;
 
-  // Mensajes con @lid → corregimos usando senderPn
-  if (rjid && rjid.endsWith('@lid')) {
-    if (senderPn)      return `${String(senderPn).replace(/\D/g, '')}@s.whatsapp.net`;
-    if (participantPn) return `${String(participantPn).replace(/\D/g, '')}@s.whatsapp.net`;
-    return rjid;
+    // Caso @lid → intento de corrección
+    if (rjid && rjid.endsWith('@lid')) {
+      if (senderPn) {
+        console.log("🔧 Corrigiendo @lid con senderPn:", senderPn);
+        return `${String(senderPn).replace(/\D/g, '')}@s.whatsapp.net`;
+      }
+      if (participantPn) {
+        console.log("🔧 Corrigiendo @lid con participantPn:", participantPn);
+        return `${String(participantPn).replace(/\D/g, '')}@s.whatsapp.net`;
+      }
+    }
+
+    // Fallback: uso cualquiera de los disponibles
+    const candidates = [rjid, pjid, from];
+    for (const c of candidates) {
+      if (!c) continue;
+      if (c.endsWith('@s.whatsapp.net') || c.endsWith('@g.us')) return c;
+      if (/^\d+$/.test(c)) return `${c}@s.whatsapp.net`;
+    }
+
+    console.warn("⚠️ No se pudo normalizar JID. ctx:", ctx);
+    return rjid || from || null;
+  } catch (err) {
+    console.error("❌ Error en getRealJid:", err);
+    return null;
   }
-
-  const candidates = [rjid, pjid, from];
-  for (const c of candidates) {
-    const n = normalizeJid(c);
-    if (n) return n;
-  }
-  return null;
 };
 
 /* ====== Carga de textos ====== */
@@ -214,23 +228,8 @@ const main = async () => {
   ]);
   const adapterProvider = createProvider(BaileysProvider);
 
-  // Workaround para mensajes con @lid
-  adapterProvider.init = ((originalInit) => async function(...args) {
-    const sock = await originalInit.apply(this, args);
-
-    sock.ev.on("messages.upsert", async (m) => {
-      if (m.messages && m.messages[0] && /@lid/.test(m.messages[0].key.remoteJid)) {
-        if (m.messages[0].key.senderPn) {
-          m.messages[0].key.remoteJid = m.messages[0].key.senderPn;
-          console.log("🔧 Corregido remoteJid:", m.messages[0].key.remoteJid);
-        }
-      }
-    });
-
-    return sock;
-  })(adapterProvider.init);
-
   createBot({ flow: adapterFlow, provider: adapterProvider, database: adapterDB });
   QRPortalWeb();
 };
 main();
+
