@@ -11,18 +11,24 @@ const normalizeJid = (jid) => {
   if (jid.endsWith('@c.us')) return jid.replace('@c.us', '@s.whatsapp.net');
   return jid;
 };
+
 const getRealJid = (ctx) => {
   const rjid = ctx?.key?.remoteJid;
   const pjid = ctx?.key?.participant;
   const from = ctx?.from;
   const senderPn      = ctx?.key?.senderPn || ctx?.key?.senderPhoneNumber;
   const participantPn = ctx?.key?.participantPn;
+
+  // Grupos
   if (rjid && rjid.endsWith('@g.us')) return rjid;
+
+  // Mensajes con @lid → corregimos usando senderPn
   if (rjid && rjid.endsWith('@lid')) {
     if (senderPn)      return `${String(senderPn).replace(/\D/g, '')}@s.whatsapp.net`;
     if (participantPn) return `${String(participantPn).replace(/\D/g, '')}@s.whatsapp.net`;
     return rjid;
   }
+
   const candidates = [rjid, pjid, from];
   for (const c of candidates) {
     const n = normalizeJid(c);
@@ -56,6 +62,7 @@ const cargarDatosCSV = () => {
   return data;
 };
 const data = cargarDatosCSV();
+
 const obtenerOpcionesEnumeradas = (campo, lista) => {
   const unicas = [...new Set(lista.map(item => item[campo]))];
   return unicas.map((op, idx) => `${idx + 1} - ${op}`).join('\n');
@@ -65,6 +72,7 @@ const filtrarPorCriterios = (supervisor, vendedor, dia) =>
   data.filter(i => i.supervisor === supervisor && i.vendedor === vendedor && i.dia === dia)
       .map(i => `${i.codigo} - ${i.razonSocial}`)
       .join('\n');
+
 const leerLineas = (num) => {
   const lineas = csvContent.split('\n');
   const coincidencias = lineas.filter(l => l.startsWith(num + ';'));
@@ -204,7 +212,24 @@ const main = async () => {
   const adapterFlow = createFlow([
     menuFlow, constMenu, constAACC, constConsulta, constPregunta, flujoConsulta,
   ]);
-  adapterProvider = createProvider(BaileysProvider);
+  const adapterProvider = createProvider(BaileysProvider);
+
+  // Workaround para mensajes con @lid
+  adapterProvider.init = ((originalInit) => async function(...args) {
+    const sock = await originalInit.apply(this, args);
+
+    sock.ev.on("messages.upsert", async (m) => {
+      if (m.messages && m.messages[0] && /@lid/.test(m.messages[0].key.remoteJid)) {
+        if (m.messages[0].key.senderPn) {
+          m.messages[0].key.remoteJid = m.messages[0].key.senderPn;
+          console.log("🔧 Corregido remoteJid:", m.messages[0].key.remoteJid);
+        }
+      }
+    });
+
+    return sock;
+  })(adapterProvider.init);
+
   createBot({ flow: adapterFlow, provider: adapterProvider, database: adapterDB });
   QRPortalWeb();
 };
