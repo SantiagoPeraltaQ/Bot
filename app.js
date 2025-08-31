@@ -167,7 +167,7 @@ const constMenu = addKeyword(EVENTS.ACTION)
         return fallBack('Opción no válida.');
       }
       for (const linea of lineas) {
-        await flowDynamic(`Cliente 👉🏻  ${linea.valor1}`, { from: jid });
+        await flowDynamic(`Deuda 👉🏻  ${linea.valor1}`, { from: jid });
         await flowDynamic(`Ofrece estos descuentos exclusivos 📋👇🏻:\n\n- ${linea.valor3}`, { from: jid });
         await flowDynamic(`- ${linea.valor2}`, { from: jid });
       }
